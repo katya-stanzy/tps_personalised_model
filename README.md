@@ -1,4 +1,4 @@
-*Personalizing an OpenSim model with TPS and 3DSlicer*
+**Personalizing an OpenSim model with TPS and 3DSlicer**
 
 Files in this repository create a pipeline for personalisation of an OpenSim model. To get full information please refer to the publication [...].
 
