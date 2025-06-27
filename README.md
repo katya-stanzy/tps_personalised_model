@@ -4,7 +4,7 @@ Files in this repository create a pipeline for personalisation of an OpenSim mod
 
 To be able to use this pipeline, you need (1) a static trial with reflective markers fitted on the sin of the participant (2) an MRI of the participant (3) to have developed a set of bone markers on the surface of the bones of your chosen OpenSim model. These should as many as needed to describe the geometry of each bone plus the centre of its rotation. 
 
-['Flowchart']('flowchart.png')
+!['Flowchart'](flowchart.png)
 
 1. Preliminary: 
 (a) Ensure that the static trial has been extracted from the C3D file (follow the notebook "model_update/1_extract_static_c3D.ipynb")
