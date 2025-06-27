@@ -1,0 +1,284 @@
+[2025-06-27 12:32:04.016] [info] Preparing to run ScaleTool.
+[2025-06-27 12:32:04.017] [info] Processing subject Rajagopal-generic-scaled...
+[2025-06-27 12:32:04.017] [info] Step 1: Loading generic model
+[2025-06-27 12:32:04.020] [error] Object: Cannot open file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\templates\RajagopalModified_generic_copy_with_joints.osim. It may not exist or you do not have permission to read it.
+	Thrown at Object.cpp:106 in Object().
+[2025-06-27 12:32:04.020] [error] Unable to load the generic model or marker set file.
+[2025-06-27 12:32:04.020] [error] ScaleTool: No model specified.
+[2025-06-27 12:32:04.020] [error] ScaleTool: No model specified.
+[2025-06-27 12:32:52.326] [info] Preparing to run ScaleTool.
+[2025-06-27 12:32:52.327] [info] Processing subject Rajagopal-generic-scaled...
+[2025-06-27 12:32:52.327] [info] Step 1: Loading generic model
+[2025-06-27 12:32:52.384] [info] Loaded model RajagopalModifiedGeneric from file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\templates\RajagopalModified_generic_copy.osim
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:32:52.385] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:32:52.386] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:32:52.386] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:32:52.386] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:32:52.386] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:32:52.386] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 12:32:52.420] [info] Loading marker set from '../templates/scaling_EXP_Markers_to_Scale_final_3.xml'.
+[2025-06-27 12:32:52.420] [error] Object: Cannot open file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\templates\scaling_EXP_Markers_to_Scale_final_3.xml. It may not exist or you do not have permission to read it.
+	Thrown at Object.cpp:106 in Object().
+[2025-06-27 12:32:52.420] [error] Unable to load the generic model or marker set file.
+[2025-06-27 12:32:52.420] [error] ScaleTool: No model specified.
+[2025-06-27 12:32:52.421] [error] ScaleTool: No model specified.
+[2025-06-27 12:32:55.912] [info] Loaded model RajagopalModifiedGeneric from file ../templates/RajagopalModified_generic_copy.osim
+[2025-06-27 12:32:55.915] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:32:55.916] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:32:55.916] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:32:55.916] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:32:55.917] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:32:55.918] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:32:55.918] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:32:55.918] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:32:55.918] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 12:34:38.543] [info] Preparing to run ScaleTool.
+[2025-06-27 12:34:38.543] [info] Processing subject Rajagopal-generic-scaled...
+[2025-06-27 12:34:38.543] [info] Step 1: Loading generic model
+[2025-06-27 12:34:38.575] [info] Loaded model RajagopalModifiedGeneric from file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\templates\RajagopalModified_generic_copy.osim
+[2025-06-27 12:34:38.576] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:34:38.576] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:34:38.576] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:34:38.576] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:34:38.577] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:34:38.578] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 12:34:38.597] [info] Loading marker set from '../templates/scaling_EXP_Markers_to_Scale_final_3.xml'.
+[2025-06-27 12:34:38.597] [error] Object: Cannot open file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\templates\scaling_EXP_Markers_to_Scale_final_3.xml. It may not exist or you do not have permission to read it.
+	Thrown at Object.cpp:106 in Object().
+[2025-06-27 12:34:38.597] [error] Unable to load the generic model or marker set file.
+[2025-06-27 12:34:38.597] [error] ScaleTool: No model specified.
+[2025-06-27 12:34:38.597] [error] ScaleTool: No model specified.
+[2025-06-27 12:36:28.472] [info] Preparing to run ScaleTool.
+[2025-06-27 12:36:28.472] [info] Processing subject Rajagopal-generic-scaled...
+[2025-06-27 12:36:28.472] [info] Step 1: Loading generic model
+[2025-06-27 12:36:28.502] [info] Loaded model RajagopalModifiedGeneric from file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\templates\RajagopalModified_generic_copy.osim
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:36:28.503] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:36:28.504] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 12:36:28.524] [info] Loading marker set from '../templates/generic_skin_markers.xml'.
+[2025-06-27 12:36:28.655] [info] Updated markers in model RajagopalModifiedGeneric
+[2025-06-27 12:36:28.655] [info] Step 2: Scaling generic model
+[2025-06-27 12:36:28.692] [info] Loaded marker file ../motion_lab/static/Static03/task.trc (40 markers, 445 frames)
+[2025-06-27 12:36:28.692] [info] Measurement 'pelvis width'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (LASI, RASI): model = 0.256, experimental = 0.222911
+[2025-06-27 12:36:28.692] [info] 	pair 1 (LPSI, RPSI): model = 0.0880006, experimental = 0.0854253
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 0.920740
+[2025-06-27 12:36:28.692] [info] Measurement 'pelvis height'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (LASI, LMKNE): model = 0.527838, experimental = 0.458841
+[2025-06-27 12:36:28.692] [info] 	pair 1 (RASI, RMKNE): model = 0.527838, experimental = 0.456198
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 0.86678
+[2025-06-27 12:36:28.692] [info] Measurement 'torso height'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (PE01, C7): model = 0.439607, experimental = 0.400213
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 0.910389
+[2025-06-27 12:36:28.692] [info] Measurement 'torso depth'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (T10, STRN): model = 0.197721, experimental = 0.221967
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 1.12263
+[2025-06-27 12:36:28.692] [info] Measurement 'femur_r_length'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (RASI, RMKNE): model = 0.527838, experimental = 0.456198
+[2025-06-27 12:36:28.692] [info] 	pair 1 (RGT, RKNE): model = 0.388711, experimental = 0.34918
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 0.881289
+[2025-06-27 12:36:28.692] [info] Measurement 'femur_l_length'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (LASI, LMKNE): model = 0.527838, experimental = 0.458841
+[2025-06-27 12:36:28.692] [info] 	pair 1 (LGT, LKNE): model = 0.388711, experimental = 0.347020
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 0.881014
+[2025-06-27 12:36:28.692] [info] Measurement 'tibia_r_length'
+[2025-06-27 12:36:28.692] [info] 	pair 0 (RKNE, RANK): model = 0.410459, experimental = 0.404129
+[2025-06-27 12:36:28.692] [info] 	pair 1 (RMKNE, RHEE): model = 0.433377, experimental = 0.447315
+[2025-06-27 12:36:28.692] [info] 	overall scale factor = 1.00837
+[2025-06-27 12:36:28.692] [info] Measurement 'tibia_l_length'
+[2025-06-27 12:36:28.693] [info] 	pair 0 (LKNE, LANK): model = 0.410459, experimental = 0.381486
+[2025-06-27 12:36:28.693] [info] 	pair 1 (LMKNE, LHEE): model = 0.433377, experimental = 0.433126
+[2025-06-27 12:36:28.693] [info] 	overall scale factor = 0.964416
+[2025-06-27 12:36:28.693] [info] Measurement 'foot_horiz_l'
+[2025-06-27 12:36:28.693] [info] 	pair 0 (LHEE, LTOE): model = 0.212119, experimental = 0.194699
+[2025-06-27 12:36:28.693] [info] 	overall scale factor = 0.917879
+[2025-06-27 12:36:28.693] [info] Measurement 'foot_horiz_r'
+[2025-06-27 12:36:28.693] [info] 	pair 0 (RHEE, RTOE): model = 0.204784, experimental = 0.189669
+[2025-06-27 12:36:28.693] [info] 	overall scale factor = 0.926194
+[2025-06-27 12:36:28.693] [info] Measurement 'foot_vertic_l'
+[2025-06-27 12:36:28.693] [info] 	pair 0 (LHEE, LANK): model = 0.0872756, experimental = 0.0723467
+[2025-06-27 12:36:28.693] [info] 	pair 1 (LHEE, LMMA): model = 0.0986505, experimental = 0.0870646
+[2025-06-27 12:36:28.693] [info] 	overall scale factor = 0.855751
+[2025-06-27 12:36:28.693] [info] Measurement 'foot_vertic_r'
+[2025-06-27 12:36:28.693] [info] 	pair 0 (RHEE, RANK): model = 0.0872756, experimental = 0.0677337
+[2025-06-27 12:36:28.693] [info] 	pair 1 (RHEE, RMMA): model = 0.0998134, experimental = 0.0861021
+[2025-06-27 12:36:28.693] [info] 	overall scale factor = 0.819361
+[2025-06-27 12:36:28.778] [info] Wrote model file '..\final_results\generic_scaled\scaled_model.osim' from model.
+[2025-06-27 12:36:28.779] [info] Wrote scale file '..\final_results\generic_scaled\output_scale_file.txt' for model Rajagopal-generic-scaled.
+[2025-06-27 12:36:28.779] [info] Step 3: Placing markers on model
+[2025-06-27 12:36:28.824] [info] Loaded marker file ../motion_lab/static/Static03/task.trc (40 markers, 445 frames)
+[2025-06-27 12:36:28.824] [info] Averaged frames from time 0.0 to 2.22 in ../motion_lab/static/Static03/task.trc (frames 1 to 445)
+[2025-06-27 12:36:28.824] [info] Deleted 0 unused markers from model Rajagopal-generic-scaled.
+[2025-06-27 12:36:28.896] [info] Frame at (t = 0.0):	 total squared error = 0.0265074, marker error: RMS = 0.0325622, max = 0.0788739 (T10)
+[2025-06-27 12:36:28.896] [info] Moved markers in model Rajagopal-generic-scaled to match locations in marker file '../motion_lab/static/Static03/task.trc'.
+[2025-06-27 12:36:28.923] [info] Wrote model file '..\final_results\generic_scaled\scaled_model.osim' from model Rajagopal-generic-scaled.
+[2025-06-27 12:36:39.192] [info] Loaded model RajagopalModifiedGeneric from file ../templates/RajagopalModified_generic_copy.osim
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:36:39.194] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:36:39.195] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 12:36:39.236] [info] Loaded model Rajagopal-generic-scaled from file ..\final_results\generic_scaled\scaled_model.osim
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:36:39.237] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:36:39.238] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:36:39.238] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:36:39.238] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:36:39.238] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:36:39.238] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:36:39.238] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 12:36:55.381] [info] Loaded model Rajagopal-generic-scaled from file ..\final_results\generic_scaled\scaled_model.osim
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'r_femur.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'r_tibia.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'r_fibula.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-06-27 12:36:55.382] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_femur.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_tibia.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 12:36:55.383] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 14:56:39.095] [info] Preparing to run ScaleTool.
+[2025-06-27 14:56:39.095] [info] Processing subject Rajagopal-generic-scaled-scaled...
+[2025-06-27 14:56:39.095] [info] Step 1: Loading generic model
+[2025-06-27 14:56:39.122] [info] Loaded model Rajagopal-generic-scaled from file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\final_results\personalized\tps_transformed.osim
+[2025-06-27 14:56:39.124] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 14:56:39.124] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 14:56:39.124] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 14:56:39.124] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 14:56:39.124] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 14:56:39.125] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 14:56:39.125] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 14:56:39.125] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 14:56:39.125] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 14:56:39.125] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 14:56:39.142] [info] Loading marker set from 'final_results/personalized/markers.xml'.
+[2025-06-27 14:56:39.143] [error] Object: Cannot open file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\model_update\final_results\personalized\markers.xml. It may not exist or you do not have permission to read it.
+	Thrown at Object.cpp:106 in Object().
+[2025-06-27 14:56:39.143] [error] Unable to load the generic model or marker set file.
+[2025-06-27 14:56:39.143] [error] ScaleTool: No model specified.
+[2025-06-27 14:56:39.143] [error] ScaleTool: No model specified.
+[2025-06-27 15:00:16.406] [info] Preparing to run ScaleTool.
+[2025-06-27 15:00:16.407] [info] Processing subject Rajagopal-generic-scaled-scaled...
+[2025-06-27 15:00:16.407] [info] Step 1: Loading generic model
+[2025-06-27 15:00:16.450] [info] Loaded model Rajagopal-generic-scaled from file c:\Users\User\OneDrive\Documents\WORK\JRF_GaitAnalysis\modelling_paper\repo\folder\final_results\personalized\tps_transformed.osim
+[2025-06-27 15:00:16.452] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-06-27 15:00:16.452] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-06-27 15:00:16.452] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-06-27 15:00:16.453] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-06-27 15:00:16.486] [info] Loading marker set from '../final_results/personalized\markers.xml'.
+[2025-06-27 15:00:16.673] [info] Updated markers in model Rajagopal-generic-scaled
+[2025-06-27 15:00:16.673] [error] Scaling parameters disabled (apply is false) or not set. Model is not scaled.
+[2025-06-27 15:00:16.673] [info] Step 3: Placing markers on model
+[2025-06-27 15:00:16.718] [info] Loaded marker file ../motion_lab/static/Static03/task.trc (40 markers, 445 frames)
+[2025-06-27 15:00:16.719] [info] Averaged frames from time 0.0 to 2.22 in ../motion_lab/static/Static03/task.trc (frames 1 to 445)
+[2025-06-27 15:00:16.719] [info] Deleted 9 unused markers from model Rajagopal-generic-scaled-scaled.
+[2025-06-27 15:00:16.790] [info] Frame at (t = 0.0):	 total squared error = 0.00732916, marker error: RMS = 0.017851, max = 0.0312183 (RMKNE)
+[2025-06-27 15:00:16.790] [info] Moved markers in model Rajagopal-generic-scaled-scaled to match locations in marker file '../motion_lab/static/Static03/task.trc'.
+[2025-06-27 15:00:16.816] [info] Wrote model file '../final_results/personalized\tps_skin_updated.osim' from model Rajagopal-generic-scaled-scaled.

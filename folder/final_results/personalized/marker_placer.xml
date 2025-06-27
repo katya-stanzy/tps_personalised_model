@@ -1,0 +1,365 @@
+<OpenSimDocument Version="40500">
+	<ScaleTool name="Rajagopal-generic-scaled-scaled">
+		
+		<mass>52.400000000000006</mass>
+		
+		<height>-1</height>
+		
+		<age>-1</age>
+		
+		<notes>Unassigned</notes>
+		
+		<GenericModelMaker>
+			
+			<model_file>..\final_results\personalized\tps_transformed.osim</model_file>
+			
+			<marker_set_file>../final_results/personalized\markers.xml</marker_set_file>
+		</GenericModelMaker>
+		
+		<ModelScaler>
+			
+			<apply>false</apply>
+			
+			<scaling_order />
+			
+			<MeasurementSet>
+				<objects />
+				<groups />
+			</MeasurementSet>
+			
+			<ScaleSet>
+				<objects />
+				<groups />
+			</ScaleSet>
+			
+			<marker_file>../motion_lab/static/Static03/task.trc</marker_file>
+			
+			<time_range> 0 2.22</time_range>
+			
+			<preserve_mass_distribution>false</preserve_mass_distribution>
+			
+			<output_model_file>../final_results/personalized\tps_skin_updated.osim</output_model_file>
+			
+			<output_scale_file>../final_results/personalized\marker_placer.txt</output_scale_file>
+		</ModelScaler>
+		
+		<MarkerPlacer>
+			
+			<apply>true</apply>
+			
+			<IKTaskSet>
+				<objects>
+					<IKMarkerTask name="C7">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RBAK">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="CLAV">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="STRN">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="T10">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RASI">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RPSI">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LPSI">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LASI">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="PE01">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="PE02">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="PE03">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTH1">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTH2">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTH3">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RGT">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RKNE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RMKNE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTH1">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTH2">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTH3">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LGT">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LKNE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LMKNE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTB1">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTB2">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTB3">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RANK">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RMMA">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTB1">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTB2">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTB3">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LANK">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LMMA">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RHEE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RD5M">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="RTOE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LHEE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LD5M">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="LTOE">
+						
+						<apply>true</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="torso_origin_in_pelvis">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="femur_l_center_in_pelvis">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="femur_r_center_in_pelvis">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="patella_l_in_femur_l">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="patella_r_in_femur_r">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="knee_l_center_in_femur_l">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="knee_r_center_in_femur_r">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="talus_l_center_in_tibia">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+					<IKMarkerTask name="talus_r_center_in_tibia">
+						
+						<apply>false</apply>
+						
+						<weight>1</weight>
+					</IKMarkerTask>
+				</objects>
+				<groups />
+			</IKTaskSet>
+			
+			<marker_file>../motion_lab/static/Static03/task.trc</marker_file>
+			
+			<coordinate_file>Unassigned</coordinate_file>
+			
+			<time_range> 0 2.22</time_range>
+			
+			<output_motion_file>Unassigned</output_motion_file>
+			
+			<output_model_file>../final_results/personalized\tps_skin_updated.osim</output_model_file>
+			
+			<output_marker_file>Unassigned</output_marker_file>
+			
+			<max_marker_movement>-1</max_marker_movement>
+		</MarkerPlacer>
+	</ScaleTool>
+</OpenSimDocument>
