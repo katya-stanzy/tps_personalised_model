@@ -1,0 +1,979 @@
+2025-06-29 14:40:50,301 - INFO - Starting optimization)
+2025-06-29 14:40:50,302 - INFO - Generic model: ../final_results/generic_scaled/scaled_model.osim
+2025-06-29 14:40:50,304 - INFO - Personalized model: ../final_results/personalized/tps_skin_wrp_updated.osim
+2025-06-29 14:40:50,305 - INFO - Loading generic model from ../final_results/generic_scaled/scaled_model.osim
+2025-06-29 14:40:50,375 - INFO - Loading personalized model from ../final_results/personalized/tps_skin_wrp_updated.osim
+2025-06-29 14:40:50,431 - INFO - AdjustPersonal initialized successfully
+2025-06-29 14:40:50,431 - INFO - Processing 6 muscles
+2025-06-29 14:40:50,433 - INFO -  ------------ Processing muscle 1/6: gasmed_r ----------------
+2025-06-29 14:40:50,450 - INFO - Processing knee joint muscle (right): gasmed_r
+2025-06-29 14:40:50,469 - INFO - Processing muscle gasmed_r for coordinate knee_angle_r
+2025-06-29 14:40:51,389 - INFO - Initial error: 0.004258, drop: 0
+2025-06-29 14:40:51,389 - INFO - Optimizing muscle path points for gasmed_r on coordinate knee_angle_r
+2025-06-29 14:40:51,396 - INFO - ***Optimizing point 0 for gasmed_r on coordinate knee_angle_r***
+2025-06-29 14:40:51,883 - INFO - Initial m.a.error: 0.004258, initial drop: 0
+2025-06-29 14:40:51,884 - INFO - Starting simplified grid search
+2025-06-29 14:40:51,884 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 14:40:52,387 - INFO - Original obj.funct.error 0.03722347645653436
+2025-06-29 14:40:55,177 - INFO - Grid search progress: 5/125
+2025-06-29 14:40:57,761 - INFO - Grid search progress: 10/125
+2025-06-29 14:41:00,385 - INFO - Grid search progress: 15/125
+2025-06-29 14:41:03,017 - INFO - Grid search progress: 20/125
+2025-06-29 14:41:05,651 - INFO - Grid search progress: 25/125
+2025-06-29 14:41:08,349 - INFO - Grid search progress: 30/125
+2025-06-29 14:41:10,976 - INFO - Grid search progress: 35/125
+2025-06-29 14:41:13,781 - INFO - Grid search progress: 40/125
+2025-06-29 14:41:16,468 - INFO - Grid search progress: 45/125
+2025-06-29 14:41:19,359 - INFO - Grid search progress: 50/125
+2025-06-29 14:41:22,382 - INFO - Grid search progress: 55/125
+2025-06-29 14:41:25,584 - INFO - Grid search progress: 60/125
+2025-06-29 14:41:28,576 - INFO - Grid search progress: 65/125
+2025-06-29 14:41:29,838 - INFO - New best point: [ 0.00722706 -0.34827934 -0.03195728], obj.funct.error: 0.03721954848985489, m.a.error 0.0033647212983564955, drop: 0
+2025-06-29 14:41:31,107 - INFO - New best point: [ 0.00722706 -0.34827934 -0.02695728], obj.funct.error: 0.03564438215296854, m.a.error 0.0035039250152530347, drop: 0
+2025-06-29 14:41:32,376 - INFO - New best point: [ 0.00722706 -0.34827934 -0.02195728], obj.funct.error: 0.03509955334079608, m.a.error 0.003651297205250657, drop: 0
+2025-06-29 14:41:33,678 - INFO - Grid search progress: 70/125
+2025-06-29 14:41:36,207 - INFO - New best point: [ 0.00722706 -0.34327934 -0.02195728], obj.funct.error: 0.03491391477002134, m.a.error 0.00568921335641672, drop: 0
+2025-06-29 14:41:37,376 - INFO - Grid search progress: 75/125
+2025-06-29 14:41:40,258 - INFO - Grid search progress: 80/125
+2025-06-29 14:41:43,279 - INFO - Grid search progress: 85/125
+2025-06-29 14:41:44,448 - INFO - New best point: [ 0.01222706 -0.35327934 -0.03195728], obj.funct.error: 0.021720742849520386, m.a.error 0.002557605063010081, drop: 0
+2025-06-29 14:41:45,763 - INFO - New best point: [ 0.01222706 -0.35327934 -0.02695728], obj.funct.error: 0.020446133852552006, m.a.error 0.002488373816419409, drop: 0
+2025-06-29 14:41:47,132 - INFO - New best point: [ 0.01222706 -0.35327934 -0.02195728], obj.funct.error: 0.020285461273717442, m.a.error 0.002452268695664882, drop: 0
+2025-06-29 14:41:48,300 - INFO - Grid search progress: 90/125
+2025-06-29 14:41:49,420 - INFO - New best point: [ 0.01222706 -0.34827934 -0.03195728], obj.funct.error: 0.015252770903884461, m.a.error 0.0015992626622746797, drop: 0
+2025-06-29 14:41:50,632 - INFO - New best point: [ 0.01222706 -0.34827934 -0.02695728], obj.funct.error: 0.01383351024736669, m.a.error 0.0017089273047743048, drop: 0
+2025-06-29 14:41:51,806 - INFO - New best point: [ 0.01222706 -0.34827934 -0.02195728], obj.funct.error: 0.013573070105065551, m.a.error 0.0018665737915359063, drop: 0
+2025-06-29 14:41:52,980 - INFO - Grid search progress: 95/125
+2025-06-29 14:41:55,912 - INFO - Grid search progress: 100/125
+2025-06-29 14:41:58,967 - INFO - Grid search progress: 105/125
+2025-06-29 14:42:01,994 - INFO - Grid search progress: 110/125
+2025-06-29 14:42:05,329 - INFO - Grid search progress: 115/125
+2025-06-29 14:42:07,746 - INFO - New best point: [ 0.01722706 -0.34827934 -0.02195728], obj.funct.error: 0.012701705087808168, m.a.error 0.0025092661062153777, drop: 0
+2025-06-29 14:42:09,134 - INFO - Grid search progress: 120/125
+2025-06-29 14:42:12,158 - INFO - Grid search progress: 125/125
+2025-06-29 14:42:12,158 - INFO - Grid search complete. Best m.a.error: 0.0025092661062153777, best drop: 0
+2025-06-29 14:42:12,158 - INFO - Starting local optimization from best grid point
+2025-06-29 14:42:26,458 - INFO - Optimization result: error=0.001051, drop=0, displacement=0.008267m
+2025-06-29 14:42:26,458 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 14:42:26,458 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 14:42:26,478 - INFO - Applied new location: [ 0.01465407 -0.34968557 -0.02144048]. Old location: [ 0.00722706 -0.35327934 -0.02195728]
+2025-06-29 14:42:26,518 - INFO -  ------------ Processing muscle 2/6: gasmed_l ----------------
+2025-06-29 14:42:26,533 - INFO - Processing knee joint muscle (left): gasmed_l
+2025-06-29 14:42:26,549 - INFO - Processing muscle gasmed_l for coordinate knee_angle_l
+2025-06-29 14:42:27,493 - INFO - Initial error: 0.006435, drop: 1
+2025-06-29 14:42:27,493 - INFO - Optimizing muscle path points for gasmed_l on coordinate knee_angle_l
+2025-06-29 14:42:27,493 - INFO - ***Optimizing point 0 for gasmed_l on coordinate knee_angle_l***
+2025-06-29 14:42:27,964 - INFO - Initial m.a.error: 0.006435, initial drop: 1
+2025-06-29 14:42:27,964 - INFO - Starting simplified grid search
+2025-06-29 14:42:27,964 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 14:42:28,487 - INFO - Original obj.funct.error 10.046462167772008
+2025-06-29 14:42:31,189 - INFO - Grid search progress: 5/125
+2025-06-29 14:42:33,803 - INFO - Grid search progress: 10/125
+2025-06-29 14:42:36,390 - INFO - Grid search progress: 15/125
+2025-06-29 14:42:39,544 - INFO - Grid search progress: 20/125
+2025-06-29 14:42:42,249 - INFO - Grid search progress: 25/125
+2025-06-29 14:42:45,089 - INFO - Grid search progress: 30/125
+2025-06-29 14:42:48,081 - INFO - Grid search progress: 35/125
+2025-06-29 14:42:50,634 - INFO - Grid search progress: 40/125
+2025-06-29 14:42:53,251 - INFO - Grid search progress: 45/125
+2025-06-29 14:42:55,970 - INFO - Grid search progress: 50/125
+2025-06-29 14:42:58,559 - INFO - Grid search progress: 55/125
+2025-06-29 14:42:59,058 - INFO - New best point: [ 0.00148087 -0.36475967  0.03173988], obj.funct.error: 0.0587203149358686, m.a.error 0.007836526632440713, drop: 0
+2025-06-29 14:43:01,614 - INFO - Grid search progress: 60/125
+2025-06-29 14:43:04,101 - INFO - Grid search progress: 65/125
+2025-06-29 14:43:06,606 - INFO - Grid search progress: 70/125
+2025-06-29 14:43:09,190 - INFO - Grid search progress: 75/125
+2025-06-29 14:43:10,214 - INFO - New best point: [ 0.00648087 -0.36475967  0.01173988], obj.funct.error: 0.04887179040937982, m.a.error 0.005536699749715787, drop: 0
+2025-06-29 14:43:11,217 - INFO - New best point: [ 0.00648087 -0.36475967  0.01673988], obj.funct.error: 0.04685841258975795, m.a.error 0.00547810814445378, drop: 0
+2025-06-29 14:43:12,230 - INFO - New best point: [ 0.00648087 -0.36475967  0.02173988], obj.funct.error: 0.04577271360038679, m.a.error 0.005494314710587358, drop: 0
+2025-06-29 14:43:13,248 - INFO - Grid search progress: 80/125
+2025-06-29 14:43:14,280 - INFO - New best point: [ 0.00648087 -0.35975967  0.01173988], obj.funct.error: 0.04016345867914313, m.a.error 0.0037084360002826466, drop: 0
+2025-06-29 14:43:15,372 - INFO - New best point: [ 0.00648087 -0.35975967  0.01673988], obj.funct.error: 0.03784486570189258, m.a.error 0.003574281322798446, drop: 0
+2025-06-29 14:43:16,390 - INFO - New best point: [ 0.00648087 -0.35975967  0.02173988], obj.funct.error: 0.036534012998877645, m.a.error 0.003441075542289892, drop: 0
+2025-06-29 14:43:17,421 - INFO - Grid search progress: 85/125
+2025-06-29 14:43:18,423 - INFO - New best point: [ 0.00648087 -0.35475967  0.01173988], obj.funct.error: 0.03489992036394909, m.a.error 0.00471370239088805, drop: 0
+2025-06-29 14:43:19,429 - INFO - New best point: [ 0.00648087 -0.35475967  0.01673988], obj.funct.error: 0.03258718736915335, m.a.error 0.004587180808937385, drop: 0
+2025-06-29 14:43:20,454 - INFO - New best point: [ 0.00648087 -0.35475967  0.02173988], obj.funct.error: 0.031296202879493036, m.a.error 0.00446054698272278, drop: 0
+2025-06-29 14:43:21,466 - INFO - Grid search progress: 90/125
+2025-06-29 14:43:22,527 - INFO - New best point: [ 0.00648087 -0.34975967  0.01173988], obj.funct.error: 0.031026055930202356, m.a.error 0.007612979384455062, drop: 0
+2025-06-29 14:43:23,612 - INFO - New best point: [ 0.00648087 -0.34975967  0.01673988], obj.funct.error: 0.0292821358427216, m.a.error 0.0074795778917663034, drop: 0
+2025-06-29 14:43:24,714 - INFO - New best point: [ 0.00648087 -0.34975967  0.02173988], obj.funct.error: 0.02854396064907751, m.a.error 0.007347916998040311, drop: 0
+2025-06-29 14:43:25,749 - INFO - Grid search progress: 95/125
+2025-06-29 14:43:26,837 - INFO - New best point: [ 0.00648087 -0.34475967  0.01173988], obj.funct.error: 0.026405528101898165, m.a.error 0.011339717929586317, drop: 0
+2025-06-29 14:43:27,888 - INFO - New best point: [ 0.00648087 -0.34475967  0.01673988], obj.funct.error: 0.02544536377571848, m.a.error 0.011207575044974594, drop: 0
+2025-06-29 14:43:28,970 - INFO - New best point: [ 0.00648087 -0.34475967  0.02173988], obj.funct.error: 0.02533525957951449, m.a.error 0.011068048546804326, drop: 0
+2025-06-29 14:43:30,052 - INFO - Grid search progress: 100/125
+2025-06-29 14:43:32,701 - INFO - Grid search progress: 105/125
+2025-06-29 14:43:33,696 - INFO - New best point: [ 0.01148087 -0.35975967  0.01173988], obj.funct.error: 0.021170182498706225, m.a.error 0.0014715162138202705, drop: 0
+2025-06-29 14:43:34,713 - INFO - New best point: [ 0.01148087 -0.35975967  0.01673988], obj.funct.error: 0.018936102558925607, m.a.error 0.0013201210792229859, drop: 0
+2025-06-29 14:43:35,819 - INFO - New best point: [ 0.01148087 -0.35975967  0.02173988], obj.funct.error: 0.01763840023314512, m.a.error 0.0011828592299980584, drop: 0
+2025-06-29 14:43:36,839 - INFO - New best point: [ 0.01148087 -0.35975967  0.02673988], obj.funct.error: 0.017542903278148305, m.a.error 0.0010909613583052669, drop: 0
+2025-06-29 14:43:37,370 - INFO - Grid search progress: 110/125
+2025-06-29 14:43:38,463 - INFO - New best point: [ 0.01148087 -0.35475967  0.01173988], obj.funct.error: 0.015723197991127133, m.a.error 0.0038017948540857555, drop: 0
+2025-06-29 14:43:39,768 - INFO - New best point: [ 0.01148087 -0.35475967  0.01673988], obj.funct.error: 0.013983247232200412, m.a.error 0.0036535799623028642, drop: 0
+2025-06-29 14:43:41,002 - INFO - New best point: [ 0.01148087 -0.35475967  0.02173988], obj.funct.error: 0.013184382498237526, m.a.error 0.003501595658162186, drop: 0
+2025-06-29 14:43:42,140 - INFO - Grid search progress: 115/125
+2025-06-29 14:43:44,931 - INFO - Grid search progress: 120/125
+2025-06-29 14:43:47,485 - INFO - Grid search progress: 125/125
+2025-06-29 14:43:47,494 - INFO - Grid search complete. Best m.a.error: 0.003501595658162186, best drop: 0
+2025-06-29 14:43:47,494 - INFO - Starting local optimization from best grid point
+2025-06-29 14:44:04,699 - INFO - Optimization result: error=0.004131, drop=0, displacement=0.010052m
+2025-06-29 14:44:04,700 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 14:44:04,700 - INFO - Solution accepted: Drop eliminated with reasonable displacement
+2025-06-29 14:44:04,731 - INFO - Applied new location: [ 0.01148087 -0.35387392  0.02225024]. Old location: [ 0.00148087 -0.35475967  0.02173988]
+2025-06-29 14:44:04,774 - INFO -  ------------ Processing muscle 3/6: tfl_r ----------------
+2025-06-29 14:44:04,799 - INFO - Processing hip joint muscle: tfl_r
+2025-06-29 14:44:04,799 - INFO - Processing hip muscle tfl_r affecting coordinates: ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']
+2025-06-29 14:44:04,800 - INFO - Processing muscle tfl_r for coordinates: ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']
+2025-06-29 14:44:07,981 - INFO - Original errors: [0.002680759510719061, 0.007890797987885364, 0.015026803395378105]
+2025-06-29 14:44:07,981 - INFO - Original drops: [0, 0, 1]
+2025-06-29 14:44:07,981 - INFO - Adjustments needed, finding common adjustable points
+2025-06-29 14:44:07,981 - INFO - Found 3 common adjustable points
+2025-06-29 14:44:07,991 - INFO - Attempting to optimize point 0
+2025-06-29 14:44:08,041 - INFO - ***Optimizing point 0 for tfl_r on coordinates ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']***
+2025-06-29 14:44:09,567 - INFO - Initial errors: [0.002680759510719061, 0.007890797987885364, 0.015026803395378105]
+2025-06-29 14:44:09,567 - INFO - Initial drops: [0, 0, 1]
+2025-06-29 14:44:09,567 - INFO - Initial error sum: 0.025598360893982527, drop count: 1
+2025-06-29 14:44:09,575 - INFO - Starting simplified grid search
+2025-06-29 14:44:09,575 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 14:44:11,085 - INFO - Original objective function: 10.113161820169895
+2025-06-29 14:44:12,655 - INFO - Grid search progress: 1/80
+2025-06-29 14:44:14,173 - INFO - Found better point: [-0.0196101  0.0103721  0.1153979], objective function: 0.13486995222040307, error sum: 0.034612254906797, drops: 0
+2025-06-29 14:44:17,281 - INFO - Found better point: [-0.0196101  0.0103721  0.1178979], objective function: 0.12109635664879548, error sum: 0.03172687276039413, drops: 0
+2025-06-29 14:44:20,375 - INFO - Found better point: [-0.0196101  0.0103721  0.1203979], objective function: 0.10776469477479968, error sum: 0.029034218960610772, drops: 0
+2025-06-29 14:44:23,437 - INFO - Found better point: [-0.0196101  0.0103721  0.1228979], objective function: 0.09516507155991595, error sum: 0.0264734367043091, drops: 0
+2025-06-29 14:44:26,541 - INFO - Found better point: [-0.0196101  0.0103721  0.1253979], objective function: 0.08941525956373485, error sum: 0.024332770729253148, drops: 0
+2025-06-29 14:44:28,082 - INFO - Grid search progress: 6/80
+2025-06-29 14:44:35,655 - INFO - Found better point: [-0.0196101   0.01370544  0.1253979 ], objective function: 0.0867761430164904, error sum: 0.024408698335416076, drops: 0
+2025-06-29 14:44:37,174 - INFO - Grid search progress: 11/80
+2025-06-29 14:44:44,769 - INFO - Grid search progress: 16/80
+2025-06-29 14:44:52,464 - INFO - Grid search progress: 21/80
+2025-06-29 14:45:00,063 - INFO - Found better point: [-0.01627676  0.0103721   0.1253979 ], objective function: 0.07832831694111803, error sum: 0.019810800826269983, drops: 0
+2025-06-29 14:45:01,595 - INFO - Grid search progress: 26/80
+2025-06-29 14:45:09,190 - INFO - Grid search progress: 31/80
+2025-06-29 14:45:16,752 - INFO - Grid search progress: 36/80
+2025-06-29 14:45:24,431 - INFO - Grid search progress: 41/80
+2025-06-29 14:45:32,119 - INFO - Found better point: [-0.01294343  0.0103721   0.1253979 ], objective function: 0.0757585327900376, error sum: 0.016811875476565204, drops: 0
+2025-06-29 14:45:33,721 - INFO - Grid search progress: 46/80
+2025-06-29 14:45:41,373 - INFO - Grid search progress: 51/80
+2025-06-29 14:45:48,938 - INFO - Grid search progress: 56/80
+2025-06-29 14:45:56,503 - INFO - Grid search progress: 61/80
+2025-06-29 14:46:04,207 - INFO - Grid search progress: 66/80
+2025-06-29 14:46:11,735 - INFO - Grid search progress: 71/80
+2025-06-29 14:46:19,447 - INFO - Grid search progress: 76/80
+2025-06-29 14:46:25,573 - INFO - Grid search progress: 80/80
+2025-06-29 14:46:25,589 - INFO - Grid search complete. Best error sum: 0.016811875476565204, best drop count: 0
+2025-06-29 14:46:25,589 - INFO - Starting local optimization from best grid point
+2025-06-29 14:47:00,715 - INFO - Optimization result: error sum=0.01705897176951948, drop count=0, displacement=0.007194m
+2025-06-29 14:47:00,715 - INFO - Optimization accepted: Some error improvement with no increase in drops
+2025-06-29 14:47:00,742 - INFO - Applied optimization solution: [-0.01328644  0.0103721   0.1253979 ]. Old location: [-0.0146101  0.0153721  0.1203979]
+2025-06-29 14:47:02,247 - INFO - After optimizing point 0: error_sum=0.01705897176951948, drop_count=0
+2025-06-29 14:47:02,257 - INFO - Point 0 reduces drops from 1 to 0
+2025-06-29 14:47:02,257 - INFO - New best point: 0 (displacement: 0.007194m)
+2025-06-29 14:47:02,259 - INFO - Attempting to optimize point 1
+2025-06-29 14:47:02,296 - INFO - ***Optimizing point 1 for tfl_r on coordinates ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']***
+2025-06-29 14:47:03,816 - INFO - Initial errors: [0.002123693516271311, 0.004980636448442979, 0.009954641804805188]
+2025-06-29 14:47:03,816 - INFO - Initial drops: [0, 0, 0]
+2025-06-29 14:47:03,824 - INFO - Initial error sum: 0.01705897176951948, drop count: 0
+2025-06-29 14:47:03,825 - INFO - Starting simplified grid search
+2025-06-29 14:47:03,825 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 14:47:05,384 - INFO - Original objective function: 0.07213968213991305
+2025-06-29 14:47:06,937 - INFO - Grid search progress: 1/80
+2025-06-29 14:47:14,565 - INFO - Grid search progress: 6/80
+2025-06-29 14:47:22,385 - INFO - Grid search progress: 11/80
+2025-06-29 14:47:30,071 - INFO - Grid search progress: 16/80
+2025-06-29 14:47:37,750 - INFO - Grid search progress: 21/80
+2025-06-29 14:47:45,464 - INFO - Grid search progress: 26/80
+2025-06-29 14:47:53,174 - INFO - Grid search progress: 31/80
+2025-06-29 14:48:00,819 - INFO - Grid search progress: 36/80
+2025-06-29 14:48:08,547 - INFO - Grid search progress: 41/80
+2025-06-29 14:48:16,209 - INFO - Grid search progress: 46/80
+2025-06-29 14:48:20,831 - INFO - Found better point: [ 0.02277181 -0.10569168  0.04637641], objective function: 0.06538785685528711, error sum: 0.016776532560721497, drops: 0
+2025-06-29 14:48:25,397 - INFO - Grid search progress: 51/80
+2025-06-29 14:48:28,614 - INFO - Found better point: [ 0.02277181 -0.09902501  0.04137641], objective function: 0.06466384186832555, error sum: 0.01381283823868322, drops: 0
+2025-06-29 14:48:31,717 - INFO - Found better point: [ 0.02277181 -0.09902501  0.04637641], objective function: 0.05600058998345017, error sum: 0.012749948419139553, drops: 0
+2025-06-29 14:48:36,390 - INFO - Grid search progress: 56/80
+2025-06-29 14:48:39,494 - INFO - Found better point: [ 0.02277181 -0.09235835  0.04137641], objective function: 0.04606277778067467, error sum: 0.009315930416626985, drops: 0
+2025-06-29 14:48:45,687 - INFO - Grid search progress: 61/80
+2025-06-29 14:48:53,316 - INFO - Grid search progress: 66/80
+2025-06-29 14:49:00,926 - INFO - Grid search progress: 71/80
+2025-06-29 14:49:08,589 - INFO - Grid search progress: 76/80
+2025-06-29 14:49:13,329 - INFO - Found better point: [ 0.02943848 -0.09235835  0.04637641], objective function: 0.03402549867735258, error sum: 0.005263121265315344, drops: 0
+2025-06-29 14:49:16,455 - INFO - Grid search progress: 80/80
+2025-06-29 14:49:16,455 - INFO - Grid search complete. Best error sum: 0.005263121265315344, best drop count: 0
+2025-06-29 14:49:16,455 - INFO - Starting local optimization from best grid point
+2025-06-29 14:50:15,096 - INFO - Optimization result: error sum=0.00502128240165443, drop count=0, displacement=0.013707m
+2025-06-29 14:50:15,096 - INFO - Optimization accepted: improved objective error
+2025-06-29 14:50:15,130 - INFO - Applied optimization solution: [ 0.02867486 -0.09235835  0.04798335]. Old location: [ 0.01943848 -0.10235835  0.04637641]
+2025-06-29 14:50:16,664 - INFO - After optimizing point 1: error_sum=0.00502128240165443, drop_count=0
+2025-06-29 14:50:16,664 - INFO - Point 1 has significantly better error
+2025-06-29 14:50:16,664 - INFO - New best point: 1 (displacement: 0.013707m)
+2025-06-29 14:50:16,670 - INFO - Attempting to optimize point 2
+2025-06-29 14:50:16,713 - INFO - ***Optimizing point 2 for tfl_r on coordinates ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']***
+2025-06-29 14:50:18,243 - INFO - Initial errors: [0.0008309920053119946, 0.0020219018822110256, 0.00216838851413141]
+2025-06-29 14:50:18,245 - INFO - Initial drops: [0, 0, 0]
+2025-06-29 14:50:18,245 - INFO - Initial error sum: 0.00502128240165443, drop count: 0
+2025-06-29 14:50:18,245 - INFO - Starting simplified grid search
+2025-06-29 14:50:18,248 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 14:50:19,814 - INFO - Original objective function: 0.016091301882532154
+2025-06-29 14:50:21,366 - INFO - Grid search progress: 1/80
+2025-06-29 14:50:29,095 - INFO - Grid search progress: 6/80
+2025-06-29 14:50:36,773 - INFO - Grid search progress: 11/80
+2025-06-29 14:50:44,852 - INFO - Grid search progress: 16/80
+2025-06-29 14:50:52,574 - INFO - Grid search progress: 21/80
+2025-06-29 14:51:00,297 - INFO - Grid search progress: 26/80
+2025-06-29 14:51:08,088 - INFO - Grid search progress: 31/80
+2025-06-29 14:51:15,733 - INFO - Grid search progress: 36/80
+2025-06-29 14:51:23,436 - INFO - Grid search progress: 41/80
+2025-06-29 14:51:31,207 - INFO - Grid search progress: 46/80
+2025-06-29 14:51:38,957 - INFO - Grid search progress: 51/80
+2025-06-29 14:51:46,617 - INFO - Grid search progress: 56/80
+2025-06-29 14:51:54,312 - INFO - Grid search progress: 61/80
+2025-06-29 14:52:01,941 - INFO - Grid search progress: 66/80
+2025-06-29 14:52:09,839 - INFO - Grid search progress: 71/80
+2025-06-29 14:52:17,683 - INFO - Grid search progress: 76/80
+2025-06-29 14:52:23,881 - INFO - Grid search progress: 80/80
+2025-06-29 14:52:23,883 - INFO - Grid search complete. Best error sum: 0.00502128240165443, best drop count: 0
+2025-06-29 14:52:23,883 - INFO - Starting local optimization from best grid point
+2025-06-29 14:52:48,507 - INFO - Optimization result: error sum=0.005021282401654436, drop count=0, displacement=0.000000m
+2025-06-29 14:52:48,508 - INFO - Optimization solution rejected, checking grid search solution
+2025-06-29 14:52:48,508 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 14:52:50,048 - INFO - After optimizing point 2: error_sum=0.00502128240165443, drop_count=0
+2025-06-29 14:52:50,048 - INFO - Point 2 has similar error but is closer to original position
+2025-06-29 14:52:50,048 - INFO - New best point: 2 (displacement: 0.000000m)
+2025-06-29 14:52:50,069 - INFO - Best adjustment was at point 2 with error_sum=0.00502128240165443, drop_count=0
+2025-06-29 14:52:50,070 - INFO - Successfully reduced error or eliminated drops
+2025-06-29 14:52:50,082 - INFO - Processing knee-only muscle (right): tfl_r
+2025-06-29 14:52:50,100 - INFO - Processing muscle tfl_r for coordinate knee_angle_r
+2025-06-29 14:52:51,095 - INFO - Initial error: 0.003440, drop: 0
+2025-06-29 14:52:51,102 - INFO - Optimizing muscle path points for tfl_r on coordinate knee_angle_r
+2025-06-29 14:52:51,102 - INFO - ***Optimizing point 1 for tfl_r on coordinate knee_angle_r***
+2025-06-29 14:52:51,612 - INFO - Initial m.a.error: 0.003440, initial drop: 0
+2025-06-29 14:52:51,613 - INFO - Starting simplified grid search
+2025-06-29 14:52:51,613 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 14:52:52,186 - INFO - Original obj.funct.error 0.01970628497285301
+2025-06-29 14:52:54,882 - INFO - Grid search progress: 5/125
+2025-06-29 14:52:57,523 - INFO - Grid search progress: 10/125
+2025-06-29 14:53:00,089 - INFO - Grid search progress: 15/125
+2025-06-29 14:53:03,455 - INFO - Grid search progress: 20/125
+2025-06-29 14:53:08,376 - INFO - Grid search progress: 25/125
+2025-06-29 14:53:13,096 - INFO - Grid search progress: 30/125
+2025-06-29 14:53:16,166 - INFO - Grid search progress: 35/125
+2025-06-29 14:53:18,674 - INFO - Grid search progress: 40/125
+2025-06-29 14:53:21,208 - INFO - Grid search progress: 45/125
+2025-06-29 14:53:23,762 - INFO - Grid search progress: 50/125
+2025-06-29 14:53:26,334 - INFO - Grid search progress: 55/125
+2025-06-29 14:53:28,852 - INFO - Grid search progress: 60/125
+2025-06-29 14:53:31,408 - INFO - Grid search progress: 65/125
+2025-06-29 14:53:33,977 - INFO - Grid search progress: 70/125
+2025-06-29 14:53:36,481 - INFO - Grid search progress: 75/125
+2025-06-29 14:53:39,163 - INFO - Grid search progress: 80/125
+2025-06-29 14:53:41,704 - INFO - Grid search progress: 85/125
+2025-06-29 14:53:44,259 - INFO - Grid search progress: 90/125
+2025-06-29 14:53:46,830 - INFO - Grid search progress: 95/125
+2025-06-29 14:53:49,383 - INFO - Grid search progress: 100/125
+2025-06-29 14:53:51,957 - INFO - Grid search progress: 105/125
+2025-06-29 14:53:54,508 - INFO - Grid search progress: 110/125
+2025-06-29 14:53:57,112 - INFO - Grid search progress: 115/125
+2025-06-29 14:53:59,652 - INFO - Grid search progress: 120/125
+2025-06-29 14:54:02,222 - INFO - Grid search progress: 125/125
+2025-06-29 14:54:02,222 - INFO - Grid search complete. Best m.a.error: 0.0034399515467872575, best drop: 0
+2025-06-29 14:54:02,222 - INFO - Starting local optimization from best grid point
+2025-06-29 14:54:10,369 - INFO - Optimization result: error=0.003440, drop=0, displacement=0.000000m
+2025-06-29 14:54:10,369 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 14:54:10,369 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 14:54:10,383 - INFO - ***Optimizing point 2 for tfl_r on coordinate knee_angle_r***
+2025-06-29 14:54:10,867 - INFO - Initial m.a.error: 0.003440, initial drop: 0
+2025-06-29 14:54:10,868 - INFO - Starting simplified grid search
+2025-06-29 14:54:10,868 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 14:54:11,371 - INFO - Original obj.funct.error 0.01970628497285301
+2025-06-29 14:54:13,855 - INFO - Grid search progress: 5/125
+2025-06-29 14:54:16,398 - INFO - Grid search progress: 10/125
+2025-06-29 14:54:18,929 - INFO - Grid search progress: 15/125
+2025-06-29 14:54:21,476 - INFO - Grid search progress: 20/125
+2025-06-29 14:54:24,160 - INFO - Grid search progress: 25/125
+2025-06-29 14:54:26,724 - INFO - Grid search progress: 30/125
+2025-06-29 14:54:29,345 - INFO - Grid search progress: 35/125
+2025-06-29 14:54:31,878 - INFO - Grid search progress: 40/125
+2025-06-29 14:54:34,430 - INFO - Grid search progress: 45/125
+2025-06-29 14:54:36,991 - INFO - Grid search progress: 50/125
+2025-06-29 14:54:39,529 - INFO - Grid search progress: 55/125
+2025-06-29 14:54:42,098 - INFO - Grid search progress: 60/125
+2025-06-29 14:54:44,618 - INFO - Grid search progress: 65/125
+2025-06-29 14:54:46,156 - INFO - New best point: [ 0.0087342  -0.37693099  0.02880598], obj.funct.error: 0.019065043973372935, m.a.error 0.003440449955568985, drop: 0
+2025-06-29 14:54:47,139 - INFO - New best point: [ 0.0087342  -0.37693099  0.03130598], obj.funct.error: 0.01824804482846345, m.a.error 0.00323635314603987, drop: 0
+2025-06-29 14:54:48,140 - INFO - Grid search progress: 70/125
+2025-06-29 14:54:50,748 - INFO - Grid search progress: 75/125
+2025-06-29 14:54:53,298 - INFO - Grid search progress: 80/125
+2025-06-29 14:54:55,328 - INFO - New best point: [ 0.0112342  -0.38193099  0.03130598], obj.funct.error: 0.016145476158793887, m.a.error 0.0035241767856860843, drop: 0
+2025-06-29 14:54:56,320 - INFO - New best point: [ 0.0112342  -0.38193099  0.03380598], obj.funct.error: 0.01534821068094928, m.a.error 0.0033831127915905247, drop: 0
+2025-06-29 14:54:56,837 - INFO - Grid search progress: 85/125
+2025-06-29 14:54:57,880 - INFO - New best point: [ 0.0112342  -0.37943099  0.02630598], obj.funct.error: 0.01505110907671292, m.a.error 0.0029664833961285707, drop: 0
+2025-06-29 14:54:58,942 - INFO - New best point: [ 0.0112342  -0.37943099  0.02880598], obj.funct.error: 0.013396831328153586, m.a.error 0.002781853957411358, drop: 0
+2025-06-29 14:55:00,492 - INFO - New best point: [ 0.0112342  -0.37943099  0.03380598], obj.funct.error: 0.01284467512956436, m.a.error 0.002446276016617363, drop: 0
+2025-06-29 14:55:01,010 - INFO - Grid search progress: 90/125
+2025-06-29 14:55:02,554 - INFO - New best point: [ 0.0112342  -0.37693099  0.02880598], obj.funct.error: 0.0125903261221064, m.a.error 0.0022603096766298904, drop: 0
+2025-06-29 14:55:03,547 - INFO - New best point: [ 0.0112342  -0.37693099  0.03130598], obj.funct.error: 0.011922301300298453, m.a.error 0.0020650556815462393, drop: 0
+2025-06-29 14:55:04,584 - INFO - Grid search progress: 95/125
+2025-06-29 14:55:07,268 - INFO - Grid search progress: 100/125
+2025-06-29 14:55:09,856 - INFO - Grid search progress: 105/125
+2025-06-29 14:55:12,397 - INFO - New best point: [ 0.0137342  -0.38193099  0.03380598], obj.funct.error: 0.011849191607578923, m.a.error 0.003454937943631929, drop: 0
+2025-06-29 14:55:12,909 - INFO - Grid search progress: 110/125
+2025-06-29 14:55:13,424 - INFO - New best point: [ 0.0137342  -0.38193099  0.03630598], obj.funct.error: 0.011005414034942675, m.a.error 0.0034247483791366037, drop: 0
+2025-06-29 14:55:15,502 - INFO - New best point: [ 0.0137342  -0.37943099  0.03130598], obj.funct.error: 0.0092858983457151, m.a.error 0.0023423156266854464, drop: 0
+2025-06-29 14:55:16,501 - INFO - New best point: [ 0.0137342  -0.37943099  0.03380598], obj.funct.error: 0.008727805762007247, m.a.error 0.002260712498329758, drop: 0
+2025-06-29 14:55:17,021 - INFO - Grid search progress: 115/125
+2025-06-29 14:55:19,589 - INFO - Grid search progress: 120/125
+2025-06-29 14:55:20,091 - INFO - New best point: [ 0.0137342  -0.37693099  0.03630598], obj.funct.error: 0.008372236633767162, m.a.error 0.001116356914845751, drop: 0
+2025-06-29 14:55:22,693 - INFO - New best point: [ 0.0137342  -0.37443099  0.03380598], obj.funct.error: 0.0080268723414187, m.a.error 0.0007441303591166508, drop: 0
+2025-06-29 14:55:23,210 - INFO - Grid search progress: 125/125
+2025-06-29 14:55:23,210 - INFO - Grid search complete. Best m.a.error: 0.0007441303591166508, best drop: 0
+2025-06-29 14:55:23,210 - INFO - Starting local optimization from best grid point
+2025-06-29 14:55:46,013 - INFO - Optimization result: error=0.000927, drop=0, displacement=0.006404m
+2025-06-29 14:55:46,013 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 14:55:46,013 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 14:55:46,029 - INFO - Applied new location: [ 0.0137342  -0.37559449  0.03244068]. Old location: [ 0.0087342  -0.37943099  0.03130598]
+2025-06-29 14:55:46,050 - INFO - ***Optimizing point 3 for tfl_r on coordinate knee_angle_r***
+2025-06-29 14:55:46,517 - INFO - Initial m.a.error: 0.000927, initial drop: 0
+2025-06-29 14:55:46,529 - INFO - Starting simplified grid search
+2025-06-29 14:55:46,529 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 14:55:47,030 - INFO - Original obj.funct.error 0.004478961966625434
+2025-06-29 14:55:49,568 - INFO - Grid search progress: 5/125
+2025-06-29 14:55:52,272 - INFO - Grid search progress: 10/125
+2025-06-29 14:55:54,847 - INFO - Grid search progress: 15/125
+2025-06-29 14:55:57,428 - INFO - Grid search progress: 20/125
+2025-06-29 14:55:59,983 - INFO - Grid search progress: 25/125
+2025-06-29 14:56:02,559 - INFO - Grid search progress: 30/125
+2025-06-29 14:56:05,125 - INFO - Grid search progress: 35/125
+2025-06-29 14:56:07,715 - INFO - Grid search progress: 40/125
+2025-06-29 14:56:10,332 - INFO - Grid search progress: 45/125
+2025-06-29 14:56:12,936 - INFO - Grid search progress: 50/125
+2025-06-29 14:56:15,924 - INFO - Grid search progress: 55/125
+2025-06-29 14:56:20,464 - INFO - Grid search progress: 60/125
+2025-06-29 14:56:25,410 - INFO - Grid search progress: 65/125
+2025-06-29 14:56:29,873 - INFO - Grid search progress: 70/125
+2025-06-29 14:56:34,410 - INFO - Grid search progress: 75/125
+2025-06-29 14:56:38,929 - INFO - Grid search progress: 80/125
+2025-06-29 14:56:43,761 - INFO - Grid search progress: 85/125
+2025-06-29 14:56:48,572 - INFO - Grid search progress: 90/125
+2025-06-29 14:56:53,241 - INFO - Grid search progress: 95/125
+2025-06-29 14:56:57,893 - INFO - Grid search progress: 100/125
+2025-06-29 14:57:02,359 - INFO - Grid search progress: 105/125
+2025-06-29 14:57:06,435 - INFO - Grid search progress: 110/125
+2025-06-29 14:57:10,535 - INFO - Grid search progress: 115/125
+2025-06-29 14:57:14,722 - INFO - Grid search progress: 120/125
+2025-06-29 14:57:18,832 - INFO - Grid search progress: 125/125
+2025-06-29 14:57:18,833 - INFO - Grid search complete. Best m.a.error: 0.000926695772659505, best drop: 0
+2025-06-29 14:57:18,834 - INFO - Starting local optimization from best grid point
+2025-06-29 14:57:31,860 - INFO - Optimization result: error=0.000927, drop=0, displacement=0.000000m
+2025-06-29 14:57:31,862 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 14:57:31,863 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 14:57:31,909 - INFO -  ------------ Processing muscle 4/6: tfl_l ----------------
+2025-06-29 14:57:31,935 - INFO - Processing hip joint muscle: tfl_l
+2025-06-29 14:57:31,936 - INFO - Processing hip muscle tfl_l affecting coordinates: ['hip_rotation_l', 'hip_flexion_l', 'hip_adduction_l']
+2025-06-29 14:57:31,937 - INFO - Processing muscle tfl_l for coordinates: ['hip_rotation_l', 'hip_flexion_l', 'hip_adduction_l']
+2025-06-29 14:57:37,062 - INFO - Original errors: [0.0019404507580537854, 0.006998321002606971, 0.012629044953689455]
+2025-06-29 14:57:37,062 - INFO - Original drops: [0, 0, 0]
+2025-06-29 14:57:37,064 - INFO - Adjustments needed, finding common adjustable points
+2025-06-29 14:57:37,065 - INFO - Found 1 common adjustable points
+2025-06-29 14:57:37,067 - INFO - Attempting to optimize point 0
+2025-06-29 14:57:37,117 - INFO - ***Optimizing point 0 for tfl_l on coordinates ['hip_rotation_l', 'hip_flexion_l', 'hip_adduction_l']***
+2025-06-29 14:57:39,565 - INFO - Initial errors: [0.0019404507580537854, 0.006998321002606971, 0.012629044953689455]
+2025-06-29 14:57:39,566 - INFO - Initial drops: [0, 0, 0]
+2025-06-29 14:57:39,566 - INFO - Initial error sum: 0.02156781671435021, drop count: 0
+2025-06-29 14:57:39,567 - INFO - Starting simplified grid search
+2025-06-29 14:57:39,570 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 14:57:42,067 - INFO - Original objective function: 0.0814987095209649
+2025-06-29 14:57:44,575 - INFO - Grid search progress: 1/80
+2025-06-29 14:57:56,819 - INFO - Grid search progress: 6/80
+2025-06-29 14:58:09,074 - INFO - Grid search progress: 11/80
+2025-06-29 14:58:21,543 - INFO - Grid search progress: 16/80
+2025-06-29 14:58:33,900 - INFO - Grid search progress: 21/80
+2025-06-29 14:58:46,363 - INFO - Grid search progress: 26/80
+2025-06-29 14:58:58,659 - INFO - Grid search progress: 31/80
+2025-06-29 14:59:11,486 - INFO - Grid search progress: 36/80
+2025-06-29 14:59:23,809 - INFO - Grid search progress: 41/80
+2025-06-29 14:59:26,414 - INFO - Found better point: [-0.01324074  0.00924157 -0.12455351], objective function: 0.07871757057953517, error sum: 0.015806712613520284, drops: 0
+2025-06-29 14:59:31,653 - INFO - Found better point: [-0.01324074  0.00924157 -0.12205351], objective function: 0.07321010402820043, error sum: 0.01704069049022943, drops: 0
+2025-06-29 14:59:41,560 - INFO - Grid search progress: 46/80
+2025-06-29 14:59:46,567 - INFO - Found better point: [-0.01324074  0.0125749  -0.12205351], objective function: 0.06959691423636469, error sum: 0.017611936604268116, drops: 0
+2025-06-29 14:59:56,900 - INFO - Grid search progress: 51/80
+2025-06-29 15:00:04,440 - INFO - Grid search progress: 56/80
+2025-06-29 15:00:11,758 - INFO - Grid search progress: 61/80
+2025-06-29 15:00:13,264 - INFO - Found better point: [-0.00990741  0.00924157 -0.12455351], objective function: 0.06287994921270998, error sum: 0.012915357672960174, drops: 0
+2025-06-29 15:00:16,210 - INFO - Found better point: [-0.00990741  0.00924157 -0.12205351], objective function: 0.06010609353316387, error sum: 0.014226380584642954, drops: 0
+2025-06-29 15:00:22,241 - INFO - Grid search progress: 66/80
+2025-06-29 15:00:23,774 - INFO - Found better point: [-0.00990741  0.0125749  -0.12455351], objective function: 0.05936289067547451, error sum: 0.014054171535593525, drops: 0
+2025-06-29 15:00:31,353 - INFO - Grid search progress: 71/80
+2025-06-29 15:00:32,852 - INFO - Found better point: [-0.00990741  0.01590824 -0.12455351], objective function: 0.05796133492626885, error sum: 0.015601906603774002, drops: 0
+2025-06-29 15:00:40,244 - INFO - Grid search progress: 76/80
+2025-06-29 15:00:46,109 - INFO - Grid search progress: 80/80
+2025-06-29 15:00:46,109 - INFO - Grid search complete. Best error sum: 0.015601906603774002, best drop count: 0
+2025-06-29 15:00:46,109 - INFO - Starting local optimization from best grid point
+2025-06-29 15:01:41,071 - INFO - Optimization result: error sum=0.015041290463794722, drop count=0, displacement=0.006546m
+2025-06-29 15:01:41,071 - INFO - Optimization accepted: improved objective error
+2025-06-29 15:01:41,091 - INFO - Applied optimization solution: [-0.00990741  0.01400483 -0.12377257]. Old location: [-0.01490741  0.01424157 -0.11955351]
+2025-06-29 15:01:42,573 - INFO - After optimizing point 0: error_sum=0.015041290463794722, drop_count=0
+2025-06-29 15:01:42,573 - INFO - New best point: 0 (displacement: 0.006546m)
+2025-06-29 15:01:42,606 - INFO - Best adjustment was at point 0 with error_sum=0.015041290463794722, drop_count=0
+2025-06-29 15:01:42,606 - INFO - Successfully reduced error or eliminated drops
+2025-06-29 15:01:42,612 - INFO - Processing knee-only muscle (left): tfl_l
+2025-06-29 15:01:42,630 - INFO - Processing muscle tfl_l for coordinate knee_angle_l
+2025-06-29 15:01:43,608 - INFO - Initial error: 0.003343, drop: 0
+2025-06-29 15:01:43,608 - INFO - Optimizing muscle path points for tfl_l on coordinate knee_angle_l
+2025-06-29 15:01:43,608 - INFO - ***Optimizing point 1 for tfl_l on coordinate knee_angle_l***
+2025-06-29 15:01:44,058 - INFO - Initial m.a.error: 0.003343, initial drop: 0
+2025-06-29 15:01:44,058 - INFO - Starting simplified grid search
+2025-06-29 15:01:44,058 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:01:44,558 - INFO - Original obj.funct.error 0.018433653016236465
+2025-06-29 15:01:47,047 - INFO - Grid search progress: 5/125
+2025-06-29 15:01:49,610 - INFO - Grid search progress: 10/125
+2025-06-29 15:01:52,139 - INFO - Grid search progress: 15/125
+2025-06-29 15:01:54,650 - INFO - Grid search progress: 20/125
+2025-06-29 15:01:57,145 - INFO - Grid search progress: 25/125
+2025-06-29 15:01:59,652 - INFO - Grid search progress: 30/125
+2025-06-29 15:02:02,138 - INFO - Grid search progress: 35/125
+2025-06-29 15:02:04,624 - INFO - Grid search progress: 40/125
+2025-06-29 15:02:07,105 - INFO - Grid search progress: 45/125
+2025-06-29 15:02:09,567 - INFO - Grid search progress: 50/125
+2025-06-29 15:02:12,051 - INFO - Grid search progress: 55/125
+2025-06-29 15:02:14,505 - INFO - Grid search progress: 60/125
+2025-06-29 15:02:17,042 - INFO - Grid search progress: 65/125
+2025-06-29 15:02:19,546 - INFO - Grid search progress: 70/125
+2025-06-29 15:02:22,055 - INFO - Grid search progress: 75/125
+2025-06-29 15:02:24,522 - INFO - Grid search progress: 80/125
+2025-06-29 15:02:27,024 - INFO - Grid search progress: 85/125
+2025-06-29 15:02:29,528 - INFO - Grid search progress: 90/125
+2025-06-29 15:02:32,022 - INFO - Grid search progress: 95/125
+2025-06-29 15:02:34,658 - INFO - Grid search progress: 100/125
+2025-06-29 15:02:37,223 - INFO - Grid search progress: 105/125
+2025-06-29 15:02:39,760 - INFO - Grid search progress: 110/125
+2025-06-29 15:02:42,281 - INFO - Grid search progress: 115/125
+2025-06-29 15:02:44,801 - INFO - Grid search progress: 120/125
+2025-06-29 15:02:47,314 - INFO - Grid search progress: 125/125
+2025-06-29 15:02:47,314 - INFO - Grid search complete. Best m.a.error: 0.0033433294303619986, best drop: 0
+2025-06-29 15:02:47,314 - INFO - Starting local optimization from best grid point
+2025-06-29 15:02:55,367 - INFO - Optimization result: error=0.003343, drop=0, displacement=0.000000m
+2025-06-29 15:02:55,367 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 15:02:55,367 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 15:02:55,379 - INFO - ***Optimizing point 2 for tfl_l on coordinate knee_angle_l***
+2025-06-29 15:02:55,849 - INFO - Initial m.a.error: 0.003343, initial drop: 0
+2025-06-29 15:02:55,851 - INFO - Starting simplified grid search
+2025-06-29 15:02:55,852 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:02:56,319 - INFO - Original obj.funct.error 0.018433653016236465
+2025-06-29 15:02:58,906 - INFO - Grid search progress: 5/125
+2025-06-29 15:03:01,443 - INFO - Grid search progress: 10/125
+2025-06-29 15:03:03,981 - INFO - Grid search progress: 15/125
+2025-06-29 15:03:06,451 - INFO - Grid search progress: 20/125
+2025-06-29 15:03:08,957 - INFO - Grid search progress: 25/125
+2025-06-29 15:03:11,425 - INFO - Grid search progress: 30/125
+2025-06-29 15:03:13,949 - INFO - Grid search progress: 35/125
+2025-06-29 15:03:16,433 - INFO - Grid search progress: 40/125
+2025-06-29 15:03:19,037 - INFO - Grid search progress: 45/125
+2025-06-29 15:03:21,601 - INFO - Grid search progress: 50/125
+2025-06-29 15:03:24,148 - INFO - Grid search progress: 55/125
+2025-06-29 15:03:26,685 - INFO - Grid search progress: 60/125
+2025-06-29 15:03:29,192 - INFO - Grid search progress: 65/125
+2025-06-29 15:03:30,170 - INFO - New best point: [ 0.00913334 -0.38642265 -0.03639378], obj.funct.error: 0.017993294378176823, m.a.error 0.002675607094026267, drop: 0
+2025-06-29 15:03:31,206 - INFO - New best point: [ 0.00913334 -0.38642265 -0.03389378], obj.funct.error: 0.01718475337059354, m.a.error 0.002851852811726456, drop: 0
+2025-06-29 15:03:32,223 - INFO - New best point: [ 0.00913334 -0.38642265 -0.03139378], obj.funct.error: 0.016933375238607065, m.a.error 0.0030422913420177135, drop: 0
+2025-06-29 15:03:33,264 - INFO - Grid search progress: 70/125
+2025-06-29 15:03:35,840 - INFO - Grid search progress: 75/125
+2025-06-29 15:03:38,402 - INFO - Grid search progress: 80/125
+2025-06-29 15:03:39,434 - INFO - New best point: [ 0.01163334 -0.39142265 -0.03639378], obj.funct.error: 0.01478228523013222, m.a.error 0.0033816749297753508, drop: 0
+2025-06-29 15:03:41,460 - INFO - Grid search progress: 85/125
+2025-06-29 15:03:43,457 - INFO - New best point: [ 0.01163334 -0.38892265 -0.03139378], obj.funct.error: 0.011691114374339165, m.a.error 0.002629698599943826, drop: 0
+2025-06-29 15:03:44,442 - INFO - Grid search progress: 90/125
+2025-06-29 15:03:45,986 - INFO - New best point: [ 0.01163334 -0.38642265 -0.03389378], obj.funct.error: 0.011083845289799058, m.a.error 0.0017910439457360977, drop: 0
+2025-06-29 15:03:47,505 - INFO - Grid search progress: 95/125
+2025-06-29 15:03:50,033 - INFO - Grid search progress: 100/125
+2025-06-29 15:03:52,572 - INFO - Grid search progress: 105/125
+2025-06-29 15:03:55,163 - INFO - Grid search progress: 110/125
+2025-06-29 15:03:56,161 - INFO - New best point: [ 0.01413334 -0.38892265 -0.03639378], obj.funct.error: 0.00893357986458393, m.a.error 0.0024575272076660386, drop: 0
+2025-06-29 15:03:58,216 - INFO - Grid search progress: 115/125
+2025-06-29 15:04:00,267 - INFO - New best point: [ 0.01413334 -0.38642265 -0.03139378], obj.funct.error: 0.007804444662067139, m.a.error 0.0014522541461995829, drop: 0
+2025-06-29 15:04:01,284 - INFO - Grid search progress: 120/125
+2025-06-29 15:04:02,310 - INFO - New best point: [ 0.01413334 -0.38392265 -0.03639378], obj.funct.error: 0.00750653018210036, m.a.error 0.00045005891710113904, drop: 0
+2025-06-29 15:04:04,456 - INFO - Grid search progress: 125/125
+2025-06-29 15:04:04,456 - INFO - Grid search complete. Best m.a.error: 0.00045005891710113904, best drop: 0
+2025-06-29 15:04:04,456 - INFO - Starting local optimization from best grid point
+2025-06-29 15:04:43,297 - INFO - Optimization result: error=0.000625, drop=0, displacement=0.007434m
+2025-06-29 15:04:43,298 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 15:04:43,299 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 15:04:43,321 - INFO - Applied new location: [ 0.01413334 -0.38429277 -0.03436499]. Old location: [ 0.00913334 -0.38892265 -0.03139378]
+2025-06-29 15:04:43,336 - INFO - ***Optimizing point 3 for tfl_l on coordinate knee_angle_l***
+2025-06-29 15:04:43,806 - INFO - Initial m.a.error: 0.000625, initial drop: 0
+2025-06-29 15:04:43,806 - INFO - Starting simplified grid search
+2025-06-29 15:04:43,806 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:04:44,370 - INFO - Original obj.funct.error 0.0034311144296736537
+2025-06-29 15:04:47,025 - INFO - Grid search progress: 5/125
+2025-06-29 15:04:49,628 - INFO - Grid search progress: 10/125
+2025-06-29 15:04:52,249 - INFO - Grid search progress: 15/125
+2025-06-29 15:04:54,800 - INFO - Grid search progress: 20/125
+2025-06-29 15:04:57,390 - INFO - Grid search progress: 25/125
+2025-06-29 15:04:59,991 - INFO - Grid search progress: 30/125
+2025-06-29 15:05:02,595 - INFO - Grid search progress: 35/125
+2025-06-29 15:05:05,166 - INFO - Grid search progress: 40/125
+2025-06-29 15:05:07,737 - INFO - Grid search progress: 45/125
+2025-06-29 15:05:10,256 - INFO - Grid search progress: 50/125
+2025-06-29 15:05:12,780 - INFO - Grid search progress: 55/125
+2025-06-29 15:05:15,366 - INFO - Grid search progress: 60/125
+2025-06-29 15:05:17,384 - INFO - New best point: [ 0.01174752 -0.03806607 -0.04019123], obj.funct.error: 0.003431114429673647, m.a.error 0.0006249653834677096, drop: 0
+2025-06-29 15:05:18,386 - INFO - Grid search progress: 65/125
+2025-06-29 15:05:20,991 - INFO - Grid search progress: 70/125
+2025-06-29 15:05:23,577 - INFO - Grid search progress: 75/125
+2025-06-29 15:05:26,181 - INFO - Grid search progress: 80/125
+2025-06-29 15:05:28,751 - INFO - Grid search progress: 85/125
+2025-06-29 15:05:31,429 - INFO - Grid search progress: 90/125
+2025-06-29 15:05:34,083 - INFO - Grid search progress: 95/125
+2025-06-29 15:05:36,730 - INFO - Grid search progress: 100/125
+2025-06-29 15:05:39,318 - INFO - Grid search progress: 105/125
+2025-06-29 15:05:41,922 - INFO - Grid search progress: 110/125
+2025-06-29 15:05:44,525 - INFO - Grid search progress: 115/125
+2025-06-29 15:05:47,115 - INFO - Grid search progress: 120/125
+2025-06-29 15:05:49,717 - INFO - Grid search progress: 125/125
+2025-06-29 15:05:49,717 - INFO - Grid search complete. Best m.a.error: 0.0006249653834677096, best drop: 0
+2025-06-29 15:05:49,717 - INFO - Starting local optimization from best grid point
+2025-06-29 15:05:57,862 - INFO - Optimization result: error=0.000625, drop=0, displacement=0.000000m
+2025-06-29 15:05:57,862 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 15:05:57,862 - INFO - Grid solution accepted: Smaller error and zero drop
+2025-06-29 15:05:57,898 - INFO - Applied grid search solution: [ 0.01174752 -0.03806607 -0.04019123]
+2025-06-29 15:05:57,936 - INFO -  ------------ Processing muscle 5/6: sart_r ----------------
+2025-06-29 15:05:57,952 - INFO - Processing hip joint muscle: sart_r
+2025-06-29 15:05:57,952 - INFO - Processing hip muscle sart_r affecting coordinates: ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']
+2025-06-29 15:05:57,952 - INFO - Processing muscle sart_r for coordinates: ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']
+2025-06-29 15:06:01,134 - INFO - Original errors: [0.001424709476287808, 0.017279305770160108, 0.008467905572079581]
+2025-06-29 15:06:01,134 - INFO - Original drops: [0, 0, 0]
+2025-06-29 15:06:01,134 - INFO - Adjustments needed, finding common adjustable points
+2025-06-29 15:06:01,134 - INFO - Found 2 common adjustable points
+2025-06-29 15:06:01,141 - INFO - Attempting to optimize point 0
+2025-06-29 15:06:01,178 - INFO - ***Optimizing point 0 for sart_r on coordinates ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']***
+2025-06-29 15:06:02,686 - INFO - Initial errors: [0.001424709476287808, 0.017279305770160108, 0.008467905572079581]
+2025-06-29 15:06:02,686 - INFO - Initial drops: [0, 0, 0]
+2025-06-29 15:06:02,686 - INFO - Initial error sum: 0.027171920818527498, drop count: 0
+2025-06-29 15:06:02,698 - INFO - Starting simplified grid search
+2025-06-29 15:06:02,698 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 15:06:04,209 - INFO - Original objective function: 0.0435240714399169
+2025-06-29 15:06:05,758 - INFO - Grid search progress: 1/80
+2025-06-29 15:06:10,432 - INFO - Found better point: [-0.01004948 -0.0139701   0.1057808 ], objective function: 0.038059038515797415, error sum: 0.020758002199445496, drops: 0
+2025-06-29 15:06:13,436 - INFO - Found better point: [-0.01004948 -0.0139701   0.1082808 ], objective function: 0.033131620304441646, error sum: 0.018460584912417442, drops: 0
+2025-06-29 15:06:16,661 - INFO - Found better point: [-0.01004948 -0.0139701   0.1107808 ], objective function: 0.029485122180534486, error sum: 0.017084379441721247, drops: 0
+2025-06-29 15:06:18,220 - INFO - Grid search progress: 6/80
+2025-06-29 15:06:25,909 - INFO - Grid search progress: 11/80
+2025-06-29 15:06:33,684 - INFO - Grid search progress: 16/80
+2025-06-29 15:06:41,368 - INFO - Grid search progress: 21/80
+2025-06-29 15:06:48,974 - INFO - Grid search progress: 26/80
+2025-06-29 15:06:56,539 - INFO - Grid search progress: 31/80
+2025-06-29 15:07:04,301 - INFO - Grid search progress: 36/80
+2025-06-29 15:07:11,959 - INFO - Grid search progress: 41/80
+2025-06-29 15:07:19,655 - INFO - Grid search progress: 46/80
+2025-06-29 15:07:27,267 - INFO - Grid search progress: 51/80
+2025-06-29 15:07:34,929 - INFO - Grid search progress: 56/80
+2025-06-29 15:07:42,556 - INFO - Grid search progress: 61/80
+2025-06-29 15:07:50,372 - INFO - Grid search progress: 66/80
+2025-06-29 15:07:58,018 - INFO - Grid search progress: 71/80
+2025-06-29 15:08:05,667 - INFO - Grid search progress: 76/80
+2025-06-29 15:08:11,837 - INFO - Grid search progress: 80/80
+2025-06-29 15:08:11,837 - INFO - Grid search complete. Best error sum: 0.017084379441721247, best drop count: 0
+2025-06-29 15:08:11,837 - INFO - Starting local optimization from best grid point
+2025-06-29 15:08:19,495 - INFO - Optimization result: error sum=0.017084379441721247, drop count=0, displacement=0.008660m
+2025-06-29 15:08:19,495 - INFO - Optimization accepted: improved objective error
+2025-06-29 15:08:19,518 - INFO - Applied optimization solution: [-0.01004948 -0.0139701   0.1107808 ]. Old location: [-0.00504948 -0.0089701   0.1057808 ]
+2025-06-29 15:08:21,033 - INFO - After optimizing point 0: error_sum=0.017084379441721247, drop_count=0
+2025-06-29 15:08:21,033 - INFO - New best point: 0 (displacement: 0.008660m)
+2025-06-29 15:08:21,042 - INFO - Attempting to optimize point 1
+2025-06-29 15:08:21,087 - INFO - ***Optimizing point 1 for sart_r on coordinates ['hip_rotation_r', 'hip_flexion_r', 'hip_adduction_r']***
+2025-06-29 15:08:22,617 - INFO - Initial errors: [0.0019188878735795004, 0.012246817708620595, 0.0029186738595211527]
+2025-06-29 15:08:22,633 - INFO - Initial drops: [0, 0, 0]
+2025-06-29 15:08:22,633 - INFO - Initial error sum: 0.017084379441721247, drop count: 0
+2025-06-29 15:08:22,634 - INFO - Starting simplified grid search
+2025-06-29 15:08:22,634 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 15:08:24,208 - INFO - Original objective function: 0.025154995161612292
+2025-06-29 15:08:25,723 - INFO - Grid search progress: 1/80
+2025-06-29 15:08:33,567 - INFO - Grid search progress: 6/80
+2025-06-29 15:08:41,446 - INFO - Grid search progress: 11/80
+2025-06-29 15:08:49,126 - INFO - Grid search progress: 16/80
+2025-06-29 15:08:56,751 - INFO - Grid search progress: 21/80
+2025-06-29 15:09:04,284 - INFO - Grid search progress: 26/80
+2025-06-29 15:09:11,859 - INFO - Grid search progress: 31/80
+2025-06-29 15:09:19,622 - INFO - Grid search progress: 36/80
+2025-06-29 15:09:27,420 - INFO - Grid search progress: 41/80
+2025-06-29 15:09:35,211 - INFO - Grid search progress: 46/80
+2025-06-29 15:09:36,746 - INFO - Found better point: [-0.01858959 -0.33546616 -0.03943167], objective function: 0.024016407007211728, error sum: 0.01509442528683769, drops: 0
+2025-06-29 15:09:39,800 - INFO - Found better point: [-0.01858959 -0.33546616 -0.03443167], objective function: 0.02369650398454129, error sum: 0.015908238630598086, drops: 0
+2025-06-29 15:09:45,896 - INFO - Grid search progress: 51/80
+2025-06-29 15:09:48,965 - INFO - Found better point: [-0.01858959 -0.3287995  -0.03443167], objective function: 0.023364470503995313, error sum: 0.01583253028453852, drops: 0
+2025-06-29 15:09:55,157 - INFO - Grid search progress: 56/80
+2025-06-29 15:10:02,905 - INFO - Grid search progress: 61/80
+2025-06-29 15:10:10,681 - INFO - Grid search progress: 66/80
+2025-06-29 15:10:18,464 - INFO - Grid search progress: 71/80
+2025-06-29 15:10:26,159 - INFO - Grid search progress: 76/80
+2025-06-29 15:10:32,218 - INFO - Grid search progress: 80/80
+2025-06-29 15:10:32,218 - INFO - Grid search complete. Best error sum: 0.01583253028453852, best drop count: 0
+2025-06-29 15:10:32,219 - INFO - Starting local optimization from best grid point
+2025-06-29 15:11:27,633 - INFO - Optimization result: error sum=0.015579667147161639, drop count=0, displacement=0.007374m
+2025-06-29 15:11:27,633 - INFO - Optimization accepted: improved objective error
+2025-06-29 15:11:27,665 - INFO - Applied optimization solution: [-0.01887377 -0.33146608 -0.03611252]. Old location: [-0.02192292 -0.33213283 -0.02943167]
+2025-06-29 15:11:29,190 - INFO - After optimizing point 1: error_sum=0.015579667147161639, drop_count=0
+2025-06-29 15:11:29,190 - INFO - Point 1 has significantly better error
+2025-06-29 15:11:29,190 - INFO - New best point: 1 (displacement: 0.007374m)
+2025-06-29 15:11:29,209 - INFO - Best adjustment was at point 1 with error_sum=0.015579667147161639, drop_count=0
+2025-06-29 15:11:29,213 - INFO - Successfully reduced error or eliminated drops
+2025-06-29 15:11:29,219 - INFO - Processing knee-only muscle (right): sart_r
+2025-06-29 15:11:29,239 - INFO - Processing muscle sart_r for coordinate knee_angle_r
+2025-06-29 15:11:30,253 - INFO - Initial error: 0.012033, drop: 0
+2025-06-29 15:11:30,253 - INFO - Optimizing muscle path points for sart_r on coordinate knee_angle_r
+2025-06-29 15:11:30,253 - INFO - ***Optimizing point 1 for sart_r on coordinate knee_angle_r***
+2025-06-29 15:11:30,737 - INFO - Initial m.a.error: 0.012033, initial drop: 0
+2025-06-29 15:11:30,739 - INFO - Starting simplified grid search
+2025-06-29 15:11:30,739 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:11:31,245 - INFO - Original obj.funct.error 0.07440905162212105
+2025-06-29 15:11:33,796 - INFO - Grid search progress: 5/125
+2025-06-29 15:11:36,329 - INFO - Grid search progress: 10/125
+2025-06-29 15:11:38,869 - INFO - Grid search progress: 15/125
+2025-06-29 15:11:41,437 - INFO - Grid search progress: 20/125
+2025-06-29 15:11:44,007 - INFO - Grid search progress: 25/125
+2025-06-29 15:11:46,595 - INFO - Grid search progress: 30/125
+2025-06-29 15:11:49,137 - INFO - Grid search progress: 35/125
+2025-06-29 15:11:51,753 - INFO - Grid search progress: 40/125
+2025-06-29 15:11:54,276 - INFO - Grid search progress: 45/125
+2025-06-29 15:11:56,827 - INFO - Grid search progress: 50/125
+2025-06-29 15:11:59,381 - INFO - Grid search progress: 55/125
+2025-06-29 15:12:01,927 - INFO - Grid search progress: 60/125
+2025-06-29 15:12:04,477 - INFO - Grid search progress: 65/125
+2025-06-29 15:12:07,030 - INFO - Grid search progress: 70/125
+2025-06-29 15:12:09,563 - INFO - Grid search progress: 75/125
+2025-06-29 15:12:10,548 - INFO - New best point: [-0.01637377 -0.33646608 -0.04111252], obj.funct.error: 0.07200266179390727, m.a.error 0.010406470336602924, drop: 0
+2025-06-29 15:12:12,668 - INFO - Grid search progress: 80/125
+2025-06-29 15:12:15,355 - INFO - Grid search progress: 85/125
+2025-06-29 15:12:17,976 - INFO - Grid search progress: 90/125
+2025-06-29 15:12:20,633 - INFO - Grid search progress: 95/125
+2025-06-29 15:12:23,267 - INFO - Grid search progress: 100/125
+2025-06-29 15:12:24,302 - INFO - New best point: [-0.01387377 -0.33646608 -0.04111252], obj.funct.error: 0.06902237422010404, m.a.error 0.007932003601269156, drop: 0
+2025-06-29 15:12:26,377 - INFO - Grid search progress: 105/125
+2025-06-29 15:12:28,964 - INFO - Grid search progress: 110/125
+2025-06-29 15:12:31,573 - INFO - Grid search progress: 115/125
+2025-06-29 15:12:34,155 - INFO - Grid search progress: 120/125
+2025-06-29 15:12:36,705 - INFO - Grid search progress: 125/125
+2025-06-29 15:12:36,705 - INFO - Grid search complete. Best m.a.error: 0.007932003601269156, best drop: 0
+2025-06-29 15:12:36,705 - INFO - Starting local optimization from best grid point
+2025-06-29 15:12:51,943 - INFO - Optimization result: error=0.008324, drop=0, displacement=0.008442m
+2025-06-29 15:12:51,944 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 15:12:51,944 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 15:12:51,968 - INFO - Applied new location: [-0.01426297 -0.33646608 -0.04111252]. Old location: [-0.01887377 -0.33146608 -0.03611252]
+2025-06-29 15:12:51,988 - INFO - ***Optimizing point 2 for sart_r on coordinate knee_angle_r***
+2025-06-29 15:12:52,462 - INFO - Initial m.a.error: 0.008324, initial drop: 0
+2025-06-29 15:12:52,463 - INFO - Starting simplified grid search
+2025-06-29 15:12:52,464 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:12:52,956 - INFO - Original obj.funct.error 0.062441654260178836
+2025-06-29 15:12:55,484 - INFO - Grid search progress: 5/125
+2025-06-29 15:12:58,004 - INFO - Grid search progress: 10/125
+2025-06-29 15:13:00,691 - INFO - Grid search progress: 15/125
+2025-06-29 15:13:03,288 - INFO - Grid search progress: 20/125
+2025-06-29 15:13:05,916 - INFO - Grid search progress: 25/125
+2025-06-29 15:13:08,507 - INFO - Grid search progress: 30/125
+2025-06-29 15:13:11,124 - INFO - Grid search progress: 35/125
+2025-06-29 15:13:13,697 - INFO - Grid search progress: 40/125
+2025-06-29 15:13:16,282 - INFO - Grid search progress: 45/125
+2025-06-29 15:13:18,858 - INFO - Grid search progress: 50/125
+2025-06-29 15:13:21,423 - INFO - Grid search progress: 55/125
+2025-06-29 15:13:23,997 - INFO - Grid search progress: 60/125
+2025-06-29 15:13:26,531 - INFO - Grid search progress: 65/125
+2025-06-29 15:13:29,118 - INFO - Grid search progress: 70/125
+2025-06-29 15:13:31,704 - INFO - Grid search progress: 75/125
+2025-06-29 15:13:33,242 - INFO - New best point: [-0.01993608 -0.04299913 -0.04625548], obj.funct.error: 0.05256261333084988, m.a.error 0.00588695873243934, drop: 0
+2025-06-29 15:13:34,797 - INFO - Grid search progress: 80/125
+2025-06-29 15:13:37,364 - INFO - New best point: [-0.01993608 -0.04049913 -0.04125548], obj.funct.error: 0.046672071250696175, m.a.error 0.004881992768985936, drop: 0
+2025-06-29 15:13:37,875 - INFO - Grid search progress: 85/125
+2025-06-29 15:13:38,382 - INFO - New best point: [-0.01993608 -0.04049913 -0.03875548], obj.funct.error: 0.044981100015109916, m.a.error 0.0047201725663206726, drop: 0
+2025-06-29 15:13:40,986 - INFO - Grid search progress: 90/125
+2025-06-29 15:13:43,573 - INFO - Grid search progress: 95/125
+2025-06-29 15:13:46,244 - INFO - Grid search progress: 100/125
+2025-06-29 15:13:47,830 - INFO - New best point: [-0.01743608 -0.04299913 -0.04625548], obj.funct.error: 0.038573164600402714, m.a.error 0.0047052583177414715, drop: 0
+2025-06-29 15:13:48,848 - INFO - New best point: [-0.01743608 -0.04299913 -0.04375548], obj.funct.error: 0.024603628479096418, m.a.error 0.0039804218297209626, drop: 0
+2025-06-29 15:13:49,904 - INFO - Grid search progress: 105/125
+2025-06-29 15:13:50,420 - INFO - New best point: [-0.01743608 -0.04299913 -0.03875548], obj.funct.error: 0.017664757761530932, m.a.error 0.003284775941270034, drop: 0
+2025-06-29 15:13:52,937 - INFO - Grid search progress: 110/125
+2025-06-29 15:13:55,492 - INFO - Grid search progress: 115/125
+2025-06-29 15:13:58,045 - INFO - Grid search progress: 120/125
+2025-06-29 15:14:00,583 - INFO - Grid search progress: 125/125
+2025-06-29 15:14:00,583 - INFO - Grid search complete. Best m.a.error: 0.003284775941270034, best drop: 0
+2025-06-29 15:14:00,593 - INFO - Starting local optimization from best grid point
+2025-06-29 15:14:20,730 - INFO - Optimization result: error=0.003434, drop=0, displacement=0.008147m
+2025-06-29 15:14:20,730 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 15:14:20,730 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 15:14:20,759 - INFO - Applied new location: [-0.01777902 -0.04299913 -0.03931788]. Old location: [-0.02243608 -0.03799913 -0.04375548]
+2025-06-29 15:14:20,772 - INFO - ***Optimizing point 3 for sart_r on coordinate knee_angle_r***
+2025-06-29 15:14:21,231 - INFO - Initial m.a.error: 0.003434, initial drop: 0
+2025-06-29 15:14:21,231 - INFO - Starting simplified grid search
+2025-06-29 15:14:21,231 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:14:21,731 - INFO - Original obj.funct.error 0.012899750130988187
+2025-06-29 15:14:24,236 - INFO - Grid search progress: 5/125
+2025-06-29 15:14:26,793 - INFO - Grid search progress: 10/125
+2025-06-29 15:14:29,485 - INFO - Grid search progress: 15/125
+2025-06-29 15:14:32,065 - INFO - Grid search progress: 20/125
+2025-06-29 15:14:34,706 - INFO - Grid search progress: 25/125
+2025-06-29 15:14:37,279 - INFO - Grid search progress: 30/125
+2025-06-29 15:14:39,893 - INFO - Grid search progress: 35/125
+2025-06-29 15:14:42,481 - INFO - Grid search progress: 40/125
+2025-06-29 15:14:45,035 - INFO - Grid search progress: 45/125
+2025-06-29 15:14:47,653 - INFO - Grid search progress: 50/125
+2025-06-29 15:14:50,215 - INFO - Grid search progress: 55/125
+2025-06-29 15:14:52,835 - INFO - Grid search progress: 60/125
+2025-06-29 15:14:55,586 - INFO - Grid search progress: 65/125
+2025-06-29 15:14:59,705 - INFO - Grid search progress: 70/125
+2025-06-29 15:15:04,075 - INFO - Grid search progress: 75/125
+2025-06-29 15:15:08,833 - INFO - Grid search progress: 80/125
+2025-06-29 15:15:13,564 - INFO - Grid search progress: 85/125
+2025-06-29 15:15:18,153 - INFO - Grid search progress: 90/125
+2025-06-29 15:15:23,038 - INFO - Grid search progress: 95/125
+2025-06-29 15:15:27,949 - INFO - Grid search progress: 100/125
+2025-06-29 15:15:32,827 - INFO - Grid search progress: 105/125
+2025-06-29 15:15:37,809 - INFO - Grid search progress: 110/125
+2025-06-29 15:15:42,143 - INFO - Grid search progress: 115/125
+2025-06-29 15:15:46,559 - INFO - Grid search progress: 120/125
+2025-06-29 15:15:50,751 - INFO - Grid search progress: 125/125
+2025-06-29 15:15:50,751 - INFO - Grid search complete. Best m.a.error: 0.003434225798360999, best drop: 0
+2025-06-29 15:15:50,759 - INFO - Starting local optimization from best grid point
+2025-06-29 15:16:04,180 - INFO - Optimization result: error=0.003434, drop=0, displacement=0.000000m
+2025-06-29 15:16:04,180 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 15:16:04,181 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 15:16:04,192 - INFO - ***Optimizing point 4 for sart_r on coordinate knee_angle_r***
+2025-06-29 15:16:04,759 - INFO - Initial m.a.error: 0.003434, initial drop: 0
+2025-06-29 15:16:04,759 - INFO - Starting simplified grid search
+2025-06-29 15:16:04,759 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:16:05,357 - INFO - Original obj.funct.error 0.012899750130988187
+2025-06-29 15:16:08,224 - INFO - Grid search progress: 5/125
+2025-06-29 15:16:11,339 - INFO - Grid search progress: 10/125
+2025-06-29 15:16:14,089 - INFO - Grid search progress: 15/125
+2025-06-29 15:16:16,904 - INFO - Grid search progress: 20/125
+2025-06-29 15:16:19,619 - INFO - Grid search progress: 25/125
+2025-06-29 15:16:22,374 - INFO - Grid search progress: 30/125
+2025-06-29 15:16:25,120 - INFO - Grid search progress: 35/125
+2025-06-29 15:16:28,205 - INFO - Grid search progress: 40/125
+2025-06-29 15:16:30,945 - INFO - Grid search progress: 45/125
+2025-06-29 15:16:33,635 - INFO - Grid search progress: 50/125
+2025-06-29 15:16:36,269 - INFO - Grid search progress: 55/125
+2025-06-29 15:16:38,885 - INFO - Grid search progress: 60/125
+2025-06-29 15:16:41,565 - INFO - Grid search progress: 65/125
+2025-06-29 15:16:44,232 - INFO - Grid search progress: 70/125
+2025-06-29 15:16:46,849 - INFO - Grid search progress: 75/125
+2025-06-29 15:16:49,474 - INFO - Grid search progress: 80/125
+2025-06-29 15:16:52,110 - INFO - Grid search progress: 85/125
+2025-06-29 15:16:54,740 - INFO - Grid search progress: 90/125
+2025-06-29 15:16:57,673 - INFO - Grid search progress: 95/125
+2025-06-29 15:17:01,332 - INFO - Grid search progress: 100/125
+2025-06-29 15:17:04,787 - INFO - Grid search progress: 105/125
+2025-06-29 15:17:09,456 - INFO - Grid search progress: 110/125
+2025-06-29 15:17:14,136 - INFO - Grid search progress: 115/125
+2025-06-29 15:17:18,860 - INFO - Grid search progress: 120/125
+2025-06-29 15:17:23,555 - INFO - Grid search progress: 125/125
+2025-06-29 15:17:23,555 - INFO - Grid search complete. Best m.a.error: 0.003434225798360999, best drop: 0
+2025-06-29 15:17:23,555 - INFO - Starting local optimization from best grid point
+2025-06-29 15:17:38,031 - INFO - Optimization result: error=0.003434, drop=0, displacement=0.000000m
+2025-06-29 15:17:38,038 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 15:17:38,038 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 15:17:38,089 - INFO -  ------------ Processing muscle 6/6: sart_l ----------------
+2025-06-29 15:17:38,114 - INFO - Processing hip joint muscle: sart_l
+2025-06-29 15:17:38,114 - INFO - Processing hip muscle sart_l affecting coordinates: ['hip_rotation_l', 'hip_flexion_l', 'hip_adduction_l']
+2025-06-29 15:17:38,117 - INFO - Processing muscle sart_l for coordinates: ['hip_rotation_l', 'hip_flexion_l', 'hip_adduction_l']
+2025-06-29 15:17:43,216 - INFO - Original errors: [0.002225986521584606, 0.01552721973801854, 0.009290742605915218]
+2025-06-29 15:17:43,224 - INFO - Original drops: [0, 0, 0]
+2025-06-29 15:17:43,224 - INFO - Adjustments needed, finding common adjustable points
+2025-06-29 15:17:43,224 - INFO - Found 1 common adjustable points
+2025-06-29 15:17:43,224 - INFO - Attempting to optimize point 0
+2025-06-29 15:17:43,279 - INFO - ***Optimizing point 0 for sart_l on coordinates ['hip_rotation_l', 'hip_flexion_l', 'hip_adduction_l']***
+2025-06-29 15:17:45,710 - INFO - Initial errors: [0.002225986521584606, 0.01552721973801854, 0.009290742605915218]
+2025-06-29 15:17:45,710 - INFO - Initial drops: [0, 0, 0]
+2025-06-29 15:17:45,710 - INFO - Initial error sum: 0.027043948865518364, drop count: 0
+2025-06-29 15:17:45,710 - INFO - Starting simplified grid search
+2025-06-29 15:17:45,710 - INFO - Grid dimensions: 4x4x5 = 80 points
+2025-06-29 15:17:48,169 - INFO - Original objective function: 0.04794333108118577
+2025-06-29 15:17:50,602 - INFO - Grid search progress: 1/80
+2025-06-29 15:17:53,069 - INFO - Found better point: [-0.01065845 -0.01444405 -0.10457542], objective function: 0.03353862050403365, error sum: 0.01652299004056352, drops: 0
+2025-06-29 15:18:05,421 - INFO - Grid search progress: 6/80
+2025-06-29 15:18:17,696 - INFO - Grid search progress: 11/80
+2025-06-29 15:18:29,819 - INFO - Grid search progress: 16/80
+2025-06-29 15:18:42,054 - INFO - Grid search progress: 21/80
+2025-06-29 15:18:54,256 - INFO - Grid search progress: 26/80
+2025-06-29 15:19:06,379 - INFO - Grid search progress: 31/80
+2025-06-29 15:19:18,604 - INFO - Grid search progress: 36/80
+2025-06-29 15:19:30,912 - INFO - Grid search progress: 41/80
+2025-06-29 15:19:43,324 - INFO - Grid search progress: 46/80
+2025-06-29 15:19:55,689 - INFO - Grid search progress: 51/80
+2025-06-29 15:20:07,911 - INFO - Grid search progress: 56/80
+2025-06-29 15:20:20,180 - INFO - Grid search progress: 61/80
+2025-06-29 15:20:32,396 - INFO - Grid search progress: 66/80
+2025-06-29 15:20:44,679 - INFO - Grid search progress: 71/80
+2025-06-29 15:20:57,235 - INFO - Grid search progress: 76/80
+2025-06-29 15:21:07,115 - INFO - Grid search progress: 80/80
+2025-06-29 15:21:07,120 - INFO - Grid search complete. Best error sum: 0.01652299004056352, best drop count: 0
+2025-06-29 15:21:07,120 - INFO - Starting local optimization from best grid point
+2025-06-29 15:21:19,471 - INFO - Optimization result: error sum=0.01652299004056352, drop count=0, displacement=0.008660m
+2025-06-29 15:21:19,471 - INFO - Optimization accepted: improved objective error
+2025-06-29 15:21:19,502 - INFO - Applied optimization solution: [-0.01065845 -0.01444405 -0.10457542]. Old location: [-0.00565845 -0.00944405 -0.09957542]
+2025-06-29 15:21:21,922 - INFO - After optimizing point 0: error_sum=0.01652299004056352, drop_count=0
+2025-06-29 15:21:21,922 - INFO - New best point: 0 (displacement: 0.008660m)
+2025-06-29 15:21:21,952 - INFO - Best adjustment was at point 0 with error_sum=0.01652299004056352, drop_count=0
+2025-06-29 15:21:21,952 - INFO - Successfully reduced error or eliminated drops
+2025-06-29 15:21:21,973 - INFO - Processing knee-only muscle (left): sart_l
+2025-06-29 15:21:22,006 - INFO - Processing muscle sart_l for coordinate knee_angle_l
+2025-06-29 15:21:23,610 - INFO - Initial error: 0.019352, drop: 0
+2025-06-29 15:21:23,610 - INFO - Optimizing muscle path points for sart_l on coordinate knee_angle_l
+2025-06-29 15:21:23,610 - INFO - ***Optimizing point 1 for sart_l on coordinate knee_angle_l***
+2025-06-29 15:21:24,362 - INFO - Initial m.a.error: 0.019352, initial drop: 0
+2025-06-29 15:21:24,362 - INFO - Starting simplified grid search
+2025-06-29 15:21:24,362 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:21:25,177 - INFO - Original obj.funct.error 0.0861348010175263
+2025-06-29 15:21:29,191 - INFO - Grid search progress: 5/125
+2025-06-29 15:21:33,290 - INFO - Grid search progress: 10/125
+2025-06-29 15:21:37,905 - INFO - Grid search progress: 15/125
+2025-06-29 15:21:41,122 - INFO - Grid search progress: 20/125
+2025-06-29 15:21:43,726 - INFO - Grid search progress: 25/125
+2025-06-29 15:21:46,454 - INFO - Grid search progress: 30/125
+2025-06-29 15:21:49,174 - INFO - Grid search progress: 35/125
+2025-06-29 15:21:51,772 - INFO - Grid search progress: 40/125
+2025-06-29 15:21:54,372 - INFO - Grid search progress: 45/125
+2025-06-29 15:21:56,979 - INFO - Grid search progress: 50/125
+2025-06-29 15:21:59,569 - INFO - Grid search progress: 55/125
+2025-06-29 15:22:02,457 - INFO - Grid search progress: 60/125
+2025-06-29 15:22:05,207 - INFO - Grid search progress: 65/125
+2025-06-29 15:22:07,729 - INFO - Grid search progress: 70/125
+2025-06-29 15:22:10,216 - INFO - Grid search progress: 75/125
+2025-06-29 15:22:12,741 - INFO - Grid search progress: 80/125
+2025-06-29 15:22:14,720 - INFO - New best point: [-0.02611641 -0.34250417  0.02600183], obj.funct.error: 0.08600158238802717, m.a.error 0.018621208318914617, drop: 0
+2025-06-29 15:22:15,722 - INFO - Grid search progress: 85/125
+2025-06-29 15:22:18,244 - INFO - Grid search progress: 90/125
+2025-06-29 15:22:19,784 - INFO - New best point: [-0.02611641 -0.33750417  0.02350183], obj.funct.error: 0.0851583402277943, m.a.error 0.017455566901208027, drop: 0
+2025-06-29 15:22:20,784 - INFO - New best point: [-0.02611641 -0.33750417  0.02600183], obj.funct.error: 0.084584312450012, m.a.error 0.017481219680160275, drop: 0
+2025-06-29 15:22:21,818 - INFO - Grid search progress: 95/125
+2025-06-29 15:22:24,309 - INFO - Grid search progress: 100/125
+2025-06-29 15:22:26,852 - INFO - Grid search progress: 105/125
+2025-06-29 15:22:29,379 - INFO - Grid search progress: 110/125
+2025-06-29 15:22:31,880 - INFO - Grid search progress: 115/125
+2025-06-29 15:22:33,920 - INFO - New best point: [-0.02361641 -0.33750417  0.02600183], obj.funct.error: 0.0839104348604252, m.a.error 0.016157200431325628, drop: 0
+2025-06-29 15:22:34,919 - INFO - New best point: [-0.02361641 -0.33750417  0.02850183], obj.funct.error: 0.08374918407625684, m.a.error 0.016152054326576612, drop: 0
+2025-06-29 15:22:35,488 - INFO - Grid search progress: 120/125
+2025-06-29 15:22:38,268 - INFO - Grid search progress: 125/125
+2025-06-29 15:22:38,268 - INFO - Grid search complete. Best m.a.error: 0.016152054326576612, best drop: 0
+2025-06-29 15:22:38,268 - INFO - Starting local optimization from best grid point
+2025-06-29 15:23:27,775 - INFO - Optimization result: error=0.016083, drop=0, displacement=0.006015m
+2025-06-29 15:23:27,775 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 15:23:27,775 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 15:23:27,815 - INFO - Applied new location: [-0.02361641 -0.33711318  0.02768273]. Old location: [-0.02861641 -0.34000417  0.02600183]
+2025-06-29 15:23:27,834 - INFO - ***Optimizing point 2 for sart_l on coordinate knee_angle_l***
+2025-06-29 15:23:28,642 - INFO - Initial m.a.error: 0.016083, initial drop: 0
+2025-06-29 15:23:28,642 - INFO - Starting simplified grid search
+2025-06-29 15:23:28,645 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:23:29,480 - INFO - Original obj.funct.error 0.08036341075146346
+2025-06-29 15:23:33,725 - INFO - Grid search progress: 5/125
+2025-06-29 15:23:37,986 - INFO - Grid search progress: 10/125
+2025-06-29 15:23:42,275 - INFO - Grid search progress: 15/125
+2025-06-29 15:23:46,534 - INFO - Grid search progress: 20/125
+2025-06-29 15:23:50,750 - INFO - Grid search progress: 25/125
+2025-06-29 15:23:54,959 - INFO - Grid search progress: 30/125
+2025-06-29 15:23:59,166 - INFO - Grid search progress: 35/125
+2025-06-29 15:24:03,586 - INFO - Grid search progress: 40/125
+2025-06-29 15:24:07,826 - INFO - Grid search progress: 45/125
+2025-06-29 15:24:12,061 - INFO - Grid search progress: 50/125
+2025-06-29 15:24:13,796 - INFO - New best point: [-0.02285444 -0.04129322  0.04061261], obj.funct.error: 0.07954386784310466, m.a.error 0.013997799810992664, drop: 0
+2025-06-29 15:24:17,576 - INFO - Grid search progress: 55/125
+2025-06-29 15:24:22,421 - INFO - Grid search progress: 60/125
+2025-06-29 15:24:27,369 - INFO - Grid search progress: 65/125
+2025-06-29 15:24:32,173 - INFO - Grid search progress: 70/125
+2025-06-29 15:24:36,998 - INFO - Grid search progress: 75/125
+2025-06-29 15:24:38,950 - INFO - New best point: [-0.02035444 -0.04129322  0.04061261], obj.funct.error: 0.0777928940409081, m.a.error 0.012262544903959803, drop: 0
+2025-06-29 15:24:42,959 - INFO - Grid search progress: 80/125
+2025-06-29 15:24:47,939 - INFO - Grid search progress: 85/125
+2025-06-29 15:24:53,067 - INFO - Grid search progress: 90/125
+2025-06-29 15:24:58,242 - INFO - Grid search progress: 95/125
+2025-06-29 15:25:02,589 - INFO - Grid search progress: 100/125
+2025-06-29 15:25:03,813 - INFO - New best point: [-0.01785444 -0.04129322  0.04061261], obj.funct.error: 0.07651580067219249, m.a.error 0.010680311800115644, drop: 0
+2025-06-29 15:25:05,163 - INFO - New best point: [-0.01785444 -0.04129322  0.04311261], obj.funct.error: 0.07629762153943706, m.a.error 0.011188589109472393, drop: 0
+2025-06-29 15:25:07,191 - INFO - Grid search progress: 105/125
+2025-06-29 15:25:10,253 - INFO - Grid search progress: 110/125
+2025-06-29 15:25:13,298 - INFO - Grid search progress: 115/125
+2025-06-29 15:25:16,369 - INFO - Grid search progress: 120/125
+2025-06-29 15:25:19,520 - INFO - Grid search progress: 125/125
+2025-06-29 15:25:19,522 - INFO - Grid search complete. Best m.a.error: 0.011188589109472393, best drop: 0
+2025-06-29 15:25:19,523 - INFO - Starting local optimization from best grid point
+2025-06-29 15:25:39,682 - INFO - Optimization result: error=0.011023, drop=0, displacement=0.008345m
+2025-06-29 15:25:39,683 - INFO - Solution accepted: Significant error improvement (>10%)
+2025-06-29 15:25:39,683 - INFO - Solution accepted: Smaller error and zero drop
+2025-06-29 15:25:39,706 - INFO - Applied new location: [-0.01842322 -0.04129322  0.04061261]. Old location: [-0.02285444 -0.03629322  0.04561261]
+2025-06-29 15:25:39,719 - INFO - ***Optimizing point 3 for sart_l on coordinate knee_angle_l***
+2025-06-29 15:25:40,253 - INFO - Initial m.a.error: 0.011023, initial drop: 0
+2025-06-29 15:25:40,254 - INFO - Starting simplified grid search
+2025-06-29 15:25:40,255 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:25:40,809 - INFO - Original obj.funct.error 0.07137662723192656
+2025-06-29 15:25:43,638 - INFO - Grid search progress: 5/125
+2025-06-29 15:25:46,493 - INFO - Grid search progress: 10/125
+2025-06-29 15:25:49,261 - INFO - Grid search progress: 15/125
+2025-06-29 15:25:52,161 - INFO - Grid search progress: 20/125
+2025-06-29 15:25:54,947 - INFO - Grid search progress: 25/125
+2025-06-29 15:25:57,792 - INFO - Grid search progress: 30/125
+2025-06-29 15:26:00,547 - INFO - Grid search progress: 35/125
+2025-06-29 15:26:03,334 - INFO - Grid search progress: 40/125
+2025-06-29 15:26:06,087 - INFO - Grid search progress: 45/125
+2025-06-29 15:26:08,841 - INFO - Grid search progress: 50/125
+2025-06-29 15:26:11,614 - INFO - Grid search progress: 55/125
+2025-06-29 15:26:14,414 - INFO - Grid search progress: 60/125
+2025-06-29 15:26:17,220 - INFO - Grid search progress: 65/125
+2025-06-29 15:26:20,023 - INFO - Grid search progress: 70/125
+2025-06-29 15:26:22,946 - INFO - Grid search progress: 75/125
+2025-06-29 15:26:25,792 - INFO - Grid search progress: 80/125
+2025-06-29 15:26:28,566 - INFO - Grid search progress: 85/125
+2025-06-29 15:26:31,361 - INFO - Grid search progress: 90/125
+2025-06-29 15:26:34,117 - INFO - Grid search progress: 95/125
+2025-06-29 15:26:36,884 - INFO - Grid search progress: 100/125
+2025-06-29 15:26:39,657 - INFO - Grid search progress: 105/125
+2025-06-29 15:26:42,431 - INFO - Grid search progress: 110/125
+2025-06-29 15:26:45,198 - INFO - Grid search progress: 115/125
+2025-06-29 15:26:47,916 - INFO - Grid search progress: 120/125
+2025-06-29 15:26:50,663 - INFO - Grid search progress: 125/125
+2025-06-29 15:26:50,664 - INFO - Grid search complete. Best m.a.error: 0.011023061074335108, best drop: 0
+2025-06-29 15:26:50,665 - INFO - Starting local optimization from best grid point
+2025-06-29 15:26:59,370 - INFO - Optimization result: error=0.011023, drop=0, displacement=0.000000m
+2025-06-29 15:26:59,371 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 15:26:59,373 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 15:26:59,384 - INFO - ***Optimizing point 4 for sart_l on coordinate knee_angle_l***
+2025-06-29 15:26:59,888 - INFO - Initial m.a.error: 0.011023, initial drop: 0
+2025-06-29 15:26:59,889 - INFO - Starting simplified grid search
+2025-06-29 15:26:59,890 - INFO - Grid dimensions: 5x5x5 = 125 points
+2025-06-29 15:27:00,426 - INFO - Original obj.funct.error 0.07137662723192656
+2025-06-29 15:27:03,119 - INFO - Grid search progress: 5/125
+2025-06-29 15:27:06,012 - INFO - Grid search progress: 10/125
+2025-06-29 15:27:08,776 - INFO - Grid search progress: 15/125
+2025-06-29 15:27:11,481 - INFO - Grid search progress: 20/125
+2025-06-29 15:27:14,299 - INFO - Grid search progress: 25/125
+2025-06-29 15:27:17,055 - INFO - Grid search progress: 30/125
+2025-06-29 15:27:19,764 - INFO - Grid search progress: 35/125
+2025-06-29 15:27:22,535 - INFO - Grid search progress: 40/125
+2025-06-29 15:27:25,293 - INFO - Grid search progress: 45/125
+2025-06-29 15:27:28,039 - INFO - Grid search progress: 50/125
+2025-06-29 15:27:30,759 - INFO - Grid search progress: 55/125
+2025-06-29 15:27:33,433 - INFO - Grid search progress: 60/125
+2025-06-29 15:27:36,158 - INFO - Grid search progress: 65/125
+2025-06-29 15:27:38,861 - INFO - Grid search progress: 70/125
+2025-06-29 15:27:41,597 - INFO - Grid search progress: 75/125
+2025-06-29 15:27:44,345 - INFO - Grid search progress: 80/125
+2025-06-29 15:27:47,062 - INFO - Grid search progress: 85/125
+2025-06-29 15:27:49,974 - INFO - Grid search progress: 90/125
+2025-06-29 15:27:52,648 - INFO - Grid search progress: 95/125
+2025-06-29 15:27:56,080 - INFO - Grid search progress: 100/125
+2025-06-29 15:28:00,997 - INFO - Grid search progress: 105/125
+2025-06-29 15:28:05,287 - INFO - Grid search progress: 110/125
+2025-06-29 15:28:08,740 - INFO - Grid search progress: 115/125
+2025-06-29 15:28:12,031 - INFO - Grid search progress: 120/125
+2025-06-29 15:28:15,410 - INFO - Grid search progress: 125/125
+2025-06-29 15:28:15,411 - INFO - Grid search complete. Best m.a.error: 0.011023061074335108, best drop: 0
+2025-06-29 15:28:15,413 - INFO - Starting local optimization from best grid point
+2025-06-29 15:28:26,405 - INFO - Optimization result: error=0.011023, drop=0, displacement=0.000000m
+2025-06-29 15:28:26,406 - INFO - Optimization solution rejected, checking if grid search found better solution
+2025-06-29 15:28:26,407 - INFO - No acceptable solution found, leaving point unchanged
+2025-06-29 15:28:26,449 - INFO - Saving adjusted model to ../final_results/personalized/tps_optimised.osim
+2025-06-29 15:28:26,451 - INFO - Saving adjusted model to ../final_results/personalized/tps_optimised.osim
+2025-06-29 15:28:26,497 - INFO - Model saved successfully
+2025-06-29 15:28:26,499 - INFO - Optimization completed successfully.
+2025-06-29 15:28:26,500 - INFO - Completed processing
+
