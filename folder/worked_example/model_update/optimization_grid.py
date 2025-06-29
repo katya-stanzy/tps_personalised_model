@@ -694,8 +694,8 @@ class AdjustPersonal:
         pers_coord = self.pers.getCoordinateSet().get(coordinate_name)
         initial_moment_arms = self._calculate_moment_arms(
             self.pers, self.pers_state, pers_coord, pers_muscle, coord_values)
-        initial_error, initial_drop = self._compare_moment_arms(gen_moment_arms, initial_moment_arms)
-        self.logger.info(f"Initial m.a.error: {initial_error:.6f}, initial drop: {initial_drop}")
+        initial_ma_diff, initial_drop = self._compare_moment_arms(gen_moment_arms, initial_moment_arms)
+        self.logger.info(f"Initial m.a.error: {initial_ma_diff:.6f}, initial drop: {initial_drop}")
         
         # Define objective function
         def objective_function(params):
@@ -763,7 +763,7 @@ class AdjustPersonal:
         orig_error = objective_function(orig_location)
         best_error = orig_error
         best_moment_arms = initial_moment_arms
-        best_error_val, best_drop = initial_error, initial_drop
+        best_error_val, best_drop = initial_ma_diff, initial_drop
         self.logger.info(f"Original obj.funct.error {orig_error}")
         
         # Evaluate grid points
@@ -797,12 +797,12 @@ class AdjustPersonal:
                         muscle_copy = osim.Muscle.safeDownCast(pers_copy.getForceSet().get(muscle_name))
                         moment_arms = self._calculate_moment_arms(
                             pers_copy, state_copy, coordinate_copy, muscle_copy, coord_values)
-                        best_error_val, best_drop = self._compare_moment_arms(gen_moment_arms, moment_arms)
+                        best_ma_diff_val, best_drop = self._compare_moment_arms(gen_moment_arms, moment_arms)
                         best_moment_arms = moment_arms
-                        
-                        self.logger.info(f"New best point: {params}, obj.funct.error: {error}, m.a.error {best_error_val}, drop: {best_drop}")
-        
-        self.logger.info(f"Grid search complete. Best m.a.error: {best_error_val}, best drop: {best_drop}")
+
+                        self.logger.info(f"New best point: {params}, obj.funct.error: {error}, m.a.error {best_ma_diff_val}, drop: {best_drop}")
+
+        self.logger.info(f"Grid search complete. Best m.a.error: {best_ma_diff_val}, best drop: {best_drop}")
         
         # STEP 2: One local optimization from best grid point
         self.logger.info("Starting local optimization from best grid point")
@@ -840,24 +840,24 @@ class AdjustPersonal:
             
             # Calculate displacement
             displacement = np.linalg.norm(new_location - orig_location)
-            
-            self.logger.info(f"Optimization result: error={opt_error:.6f}, drop={opt_drop}, displacement={displacement:.6f}m")
-            
-            # Decide whether to accept the optimized solution
+
+            self.logger.info(f"Optimization result: optim.func.val {result.fun}, m.a.error={opt_error:.6f}, drop={opt_drop}, displacement={displacement:.6f}m")
+
+        # Decide whether to accept the optimized solution
             accept_solution = False
             
-            # Case 1: Significant error improvement
-            if opt_error < initial_error * 0.9 and opt_drop == 0:
+            # Gradient Case 1: Significant error improvement
+            if opt_error < initial_ma_diff * 0.9 and opt_drop == 0:
                 accept_solution = True
-                self.logger.info("Solution accepted: Significant error improvement (>10%)")
+                self.logger.info("Solution accepted: Significant ma improvement (>10%)")
             
-            # Case 2: Drop elimination with reasonable displacement
+            # Gradient Case 2: Drop elimination with reasonable displacement
             if initial_drop == 1 and opt_drop == 0 and result.fun <= orig_error:
                 accept_solution = True
                 self.logger.info("Solution accepted: Drop eliminated with reasonable displacement")
-            
-            # Case 3: Some error improvement and some drop improvement
-            elif opt_error < initial_error and opt_drop == 0:
+
+            # Gradient Case 3: Some error improvement and some drop improvement
+            elif result.fun < orig_error and opt_drop == 0 and displacement <= (self.shift_bounds[1] - self.shift_bounds[0]) / 2:
                 accept_solution = True
                 self.logger.info("Solution accepted: Smaller error and zero drop")
             
@@ -873,22 +873,22 @@ class AdjustPersonal:
             else:
                 self.logger.info("Optimization solution rejected, checking if grid search found better solution")
                 
-                # Check if the grid search solution is better than the initial
+        # Check if the grid search solution is better than the initial
                 grid_displacement = np.linalg.norm(best_point - orig_location)
                 accept_grid = False
                 
-                # Similar criteria for grid search solution
-                # if best_error_val < initial_error * 0.5:
-                #     accept_grid = True
-                #     self.logger.info("Grid solution accepted: Significant error improvement (>50%)")
+                # Grid Case 1: Similar criteria for grid search solution
+                if best_ma_diff_val < initial_ma_diff * 0.5:
+                    accept_grid = True
+                    self.logger.info("Grid solution accepted: Significant ma improvement (>50%)")
 
-                # Case 2: Drop elimination with reasonable displacement
-                if initial_drop == 1 and best_drop == 0 and grid_displacement <= (self.shift_bounds[1] - self.shift_bounds[0]) / 2:
+                # Grid Case 2: Drop elimination with reasonable displacement
+                elif initial_drop == 1 and best_drop == 0 and grid_displacement <= (self.shift_bounds[1] - self.shift_bounds[0]) / 2:
                     accept_grid = True
                     self.logger.info("Grid solution accepted: Drop eliminated with reasonable displacement")
 
-                # Case 3: Some error improvement and some drop improvement
-                elif best_error_val < initial_error and best_drop == 0:
+                # Grid Case 3: Some error improvement and some drop improvement
+                elif best_ma_diff_val < initial_ma_diff and best_drop == 0:
                     accept_grid = True
                     self.logger.info("Grid solution accepted: Smaller error and zero drop")
                 
@@ -911,16 +911,18 @@ class AdjustPersonal:
             grid_displacement = np.linalg.norm(best_point - orig_location)
             accept_grid = False
             
-            # if best_error_val < initial_error * 0.9:
-            #     accept_grid = True
-            #     self.logger.info("Grid solution accepted: Significant error improvement (>10%)")
-            # Case 2: Drop elimination with reasonable displacement
+            # Grid Case 1: Similar criteria for grid search solution
+            if best_ma_diff_val < initial_ma_diff * 0.5:
+                accept_grid = True
+                self.logger.info("Grid solution accepted: Significant ma improvement (>50%)")
+
+            # Grid Case 2: Drop elimination with reasonable displacement
             if initial_drop == 1 and best_drop == 0 and grid_displacement <= (self.shift_bounds[1] - self.shift_bounds[0]) / 2:
                 accept_grid = True
                 self.logger.info("Grid solution accepted: Drop eliminated with reasonable displacement")
 
-            # Case 3: Some error improvement and some drop improvement
-            elif best_error_val < initial_error and best_drop == 0:
+            # Grid Case 3: Some error improvement and some drop improvement
+            elif best_ma_diff_val < initial_ma_diff and best_drop == 0:
                 accept_grid = True
                 self.logger.info("Grid solution accepted: Smaller error and zero drop")
             
